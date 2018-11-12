@@ -1,0 +1,5004 @@
+{
+  "$type" : "Project",
+  "tabBarController" : {
+    "$id" : "TabBarController",
+    "tabBar" : {
+      "$type" : "UITabBar",
+      "position" : {
+        "top" : 519,
+        "left" : 0
+      },
+      "hidden" : false,
+      "frame" : {
+        "origin" : {
+          "x" : 0,
+          "y" : 519
+        },
+        "size" : {
+          "width" : 320,
+          "height" : 49
+        }
+      },
+      "$id" : "UITabBar6007",
+      "barStyle" : 0,
+      "heightIsEditable" : false,
+      "$domain" : "appDoo.iOS",
+      "userInteractionEnabled" : true,
+      "autoresizingMask" : 2,
+      "size" : {
+        "width" : 320,
+        "height" : 49
+      }
+    },
+    "$type" : "UITabBarController",
+    "$domain" : "appDoo.iOS"
+  },
+  "scenes" : [
+    {
+      "$id" : "Screen1",
+      "positionOnOverview" : {
+        "top" : 45,
+        "left" : -600
+      },
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "v_separateStatusBar" : false,
+      "supportedInterfaceOrientations" : 2,
+      "showsTabBar" : false,
+      "$domain" : "appDoo.iOS",
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      },
+      "segues" : [
+        {
+          "destinationSceneID" : "Scene6bae25df54b647e2bbe063ca2607cd6c",
+          "viewID" : "UIButtona176a1cf52d040a18dafe628384e7e32",
+          "$type" : "Segue",
+          "$domain" : "appDoo.iOS"
+        },
+        {
+          "destinationSceneID" : "Scenebdee0a5897014517ab2c7de2ca428b32",
+          "viewID" : "UIButton30f8c21c7e4749b693397682be9eb539",
+          "$type" : "Segue",
+          "$domain" : "appDoo.iOS"
+        },
+        {
+          "destinationSceneID" : "Scenee3a95002413a44938e2d188c849d131f",
+          "viewID" : "UIButtona3a2f856a3b347b49e6ee6038f2d9b67",
+          "$type" : "Segue",
+          "$domain" : "appDoo.iOS"
+        },
+        {
+          "destinationSceneID" : "Scene9296114ba0564b5596fa3410ffb95621",
+          "viewID" : "UIButton3ba4e6d550bf4f5f8d86ccddd3193586",
+          "$type" : "Segue",
+          "$domain" : "appDoo.iOS"
+        },
+        {
+          "destinationSceneID" : "Scenec9527f099777452a81b2bf756f140383",
+          "viewID" : "UIButton7e36dae3b3c94ac0b6a616f048e52808",
+          "$type" : "Segue",
+          "$domain" : "appDoo.iOS"
+        },
+        {
+          "destinationSceneID" : "Scene8fd1999ca2c24ad985a35736b190ed08",
+          "viewID" : "UIButton673e655c0ea943c68439cfb944aa5d64",
+          "$type" : "Segue",
+          "$domain" : "appDoo.iOS"
+        },
+        {
+          "destinationSceneID" : "Scene84c238cfc5814e9cbe276b07233ab014",
+          "viewID" : "UIButton441fd2530ecd404fa3590ca54989e47a",
+          "$type" : "Segue",
+          "$domain" : "appDoo.iOS"
+        },
+        {
+          "destinationSceneID" : "Scene9e229945a1c04e1ebc7f31701ef9fd1a",
+          "viewID" : "UIButtonab2a695155c0418db91ce9684a77c74f",
+          "$type" : "Segue",
+          "$domain" : "appDoo.iOS"
+        }
+      ],
+      "hasCustomInterfaceOrientations" : false,
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "viewController" : {
+        "$id" : "UIViewController1",
+        "tabBarItem" : {
+          "$id" : "UITabBarItem9436",
+          "title" : "ABC Radio",
+          "$type" : "UITabBarItem",
+          "$domain" : "appDoo.iOS"
+        },
+        "title" : "ABC Radio",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "scrollLeft" : 0,
+          "$id" : "UIView6636",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgba(72,63,77,1.00)",
+          "$domain" : "appDoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 504
+            }
+          },
+          "subviews" : [
+            {
+              "$id" : "DrawableRectanglec3ae210ca636416ba666e9d44c31189a",
+              "borderColor" : "rgba(72,63,76,1.00)",
+              "position" : {
+                "top" : 250,
+                "left" : 158
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 158,
+                  "y" : 250
+                },
+                "size" : {
+                  "width" : 5,
+                  "height" : 5
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 45,
+              "transform" : "",
+              "size" : {
+                "width" : 5,
+                "height" : 5
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(72,63,78,1.00)",
+              "userInteractionEnabled" : true,
+              "name" : "Center",
+              "$type" : "DrawableRectangle"
+            },
+            {
+              "$id" : "DrawableEllipse39262e222bc94651b65fc62346a74c2c",
+              "borderColor" : "rgba(0,0,0,0.00)",
+              "position" : {
+                "top" : 673,
+                "left" : 101
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 101,
+                  "y" : 673
+                },
+                "size" : {
+                  "width" : 300,
+                  "height" : 300
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 41,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableEllipse094fe6407279489e9c409c89715667a4",
+                  "offset" : -27,
+                  "type" : "below",
+                  "$id" : "Object0ea4edd207734302a5fed94441af5afc"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 300,
+                "height" : 300
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(122,198,160,0.10)",
+              "userInteractionEnabled" : true,
+              "name" : "Circle 4",
+              "$type" : "DrawableEllipse"
+            },
+            {
+              "$id" : "DrawableEllipse094fe6407279489e9c409c89715667a4",
+              "borderColor" : "rgba(0,0,0,0.00)",
+              "position" : {
+                "top" : 300,
+                "left" : -127
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : -127,
+                  "y" : 300
+                },
+                "size" : {
+                  "width" : 400,
+                  "height" : 400
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 44,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableEllipse19ebb1451aea43ab8baa5eee1c3919be",
+                  "offset" : -79,
+                  "type" : "below",
+                  "$id" : "Object3598d27b92014655949ea27d395a6a72"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 400,
+                "height" : 400
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(122,198,160,0.10)",
+              "userInteractionEnabled" : true,
+              "name" : "Circle 3",
+              "$type" : "DrawableEllipse"
+            },
+            {
+              "$id" : "DrawableEllipse19ebb1451aea43ab8baa5eee1c3919be",
+              "borderColor" : "rgba(0,0,0,0.00)",
+              "position" : {
+                "top" : 79,
+                "left" : 101
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 101,
+                  "y" : 79
+                },
+                "size" : {
+                  "width" : 300,
+                  "height" : 300
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 41,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableEllipse454d570ecd95425d9fe6fbb16a4351ea",
+                  "offset" : -52,
+                  "type" : "below",
+                  "$id" : "Object2de0723e2070434c8cf70aa4e4c1119f"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 300,
+                "height" : 300
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(122,198,160,0.10)",
+              "userInteractionEnabled" : true,
+              "name" : "Circle 2",
+              "$type" : "DrawableEllipse"
+            },
+            {
+              "$id" : "DrawableEllipse454d570ecd95425d9fe6fbb16a4351ea",
+              "borderColor" : "rgba(0,0,0,0.00)",
+              "position" : {
+                "top" : -169,
+                "left" : -65
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : -65,
+                  "y" : -169
+                },
+                "size" : {
+                  "width" : 300,
+                  "height" : 300
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 36,
+              "transform" : "",
+              "size" : {
+                "width" : 300,
+                "height" : 300
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(122,198,160,0.10)",
+              "userInteractionEnabled" : true,
+              "name" : "Circle 1",
+              "$type" : "DrawableEllipse"
+            },
+            {
+              "CSSTextColor" : "rgba(72,62,77,1.00)",
+              "position" : {
+                "top" : 385,
+                "left" : 173
+              },
+              "fontName" : "_DEFAULT_BOLD_",
+              "$type" : "UIButton",
+              "frame" : {
+                "origin" : {
+                  "x" : 173,
+                  "y" : 385
+                },
+                "size" : {
+                  "width" : 130,
+                  "height" : 100
+                }
+              },
+              "hidden" : false,
+              "$id" : "UIButton441fd2530ecd404fa3590ca54989e47a",
+              "$domain" : "appDoo.iOS",
+              "backgroundColor" : "rgba(95,200,156,1.00)",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "actionType" : "objectAction",
+              "actionInfo" : {
+                "$type" : "ActionInfo",
+                "actionType" : "showScene",
+                "modalTransitionStyle" : "UIModalTransitionStyleCoverVertical",
+                "destinationSceneID" : "Scene84c238cfc5814e9cbe276b07233ab014",
+                "$domain" : "appDoo",
+                "objectActionID" : "",
+                "type" : "showScene"
+              },
+              "userInteractionEnabled" : true,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglec3ae210ca636416ba666e9d44c31189a",
+                  "offset" : 10,
+                  "type" : "right",
+                  "$id" : "Object46f68515ef2b402dafffe0d52e4587ff"
+                },
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglec3ae210ca636416ba666e9d44c31189a",
+                  "offset" : 130,
+                  "type" : "below",
+                  "$id" : "Object1fddff299a4e4b91a01375eb14e9c6e6"
+                }
+              ],
+              "name" : "8",
+              "size" : {
+                "width" : 130,
+                "height" : 100
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "fontFamily" : "System",
+              "autoresizingMask" : 45,
+              "fontSize" : 20,
+              "text" : "KIDS"
+            },
+            {
+              "CSSTextColor" : "rgba(72,63,77,1.00)",
+              "position" : {
+                "top" : 385,
+                "left" : 23
+              },
+              "fontName" : "_DEFAULT_BOLD_",
+              "$type" : "UIButton",
+              "frame" : {
+                "origin" : {
+                  "x" : 23,
+                  "y" : 385
+                },
+                "size" : {
+                  "width" : 130,
+                  "height" : 100
+                }
+              },
+              "hidden" : false,
+              "$id" : "UIButtonab2a695155c0418db91ce9684a77c74f",
+              "$domain" : "appDoo.iOS",
+              "backgroundColor" : "rgba(95,200,156,1.00)",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "actionType" : "objectAction",
+              "actionInfo" : {
+                "$type" : "ActionInfo",
+                "actionType" : "showScene",
+                "modalTransitionStyle" : "UIModalTransitionStyleCoverVertical",
+                "destinationSceneID" : "Scene9e229945a1c04e1ebc7f31701ef9fd1a",
+                "$domain" : "appDoo",
+                "objectActionID" : "",
+                "type" : "showScene"
+              },
+              "userInteractionEnabled" : true,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglec3ae210ca636416ba666e9d44c31189a",
+                  "offset" : -140,
+                  "type" : "right",
+                  "$id" : "Object10180272e6294531bc464d3f1d00f5e7"
+                },
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglec3ae210ca636416ba666e9d44c31189a",
+                  "offset" : 130,
+                  "type" : "below",
+                  "$id" : "Object6bf66a74629c4999a0daee7a6dcc4e44"
+                }
+              ],
+              "name" : "7",
+              "size" : {
+                "width" : 130,
+                "height" : 100
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "fontFamily" : "System",
+              "autoresizingMask" : 45,
+              "fontSize" : 20,
+              "text" : "Country"
+            },
+            {
+              "CSSTextColor" : "rgba(72,62,77,1.00)",
+              "position" : {
+                "top" : 265,
+                "left" : 173
+              },
+              "fontName" : "_DEFAULT_BOLD_",
+              "$type" : "UIButton",
+              "frame" : {
+                "origin" : {
+                  "x" : 173,
+                  "y" : 265
+                },
+                "size" : {
+                  "width" : 130,
+                  "height" : 100
+                }
+              },
+              "hidden" : false,
+              "$id" : "UIButton673e655c0ea943c68439cfb944aa5d64",
+              "$domain" : "appDoo.iOS",
+              "backgroundColor" : "rgba(95,200,156,1.00)",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "actionType" : "objectAction",
+              "actionInfo" : {
+                "$type" : "ActionInfo",
+                "actionType" : "showScene",
+                "modalTransitionStyle" : "UIModalTransitionStyleCoverVertical",
+                "destinationSceneID" : "Scene8fd1999ca2c24ad985a35736b190ed08",
+                "$domain" : "appDoo",
+                "objectActionID" : "",
+                "type" : "showScene"
+              },
+              "userInteractionEnabled" : true,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglec3ae210ca636416ba666e9d44c31189a",
+                  "offset" : 10,
+                  "type" : "right",
+                  "$id" : "Objectea25ee07fb4a420f91c39ce5ee55c91b"
+                },
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglec3ae210ca636416ba666e9d44c31189a",
+                  "offset" : 10,
+                  "type" : "below",
+                  "$id" : "Object038ee09333944baab7461c8c7ff0e5af"
+                }
+              ],
+              "name" : "6",
+              "size" : {
+                "width" : 130,
+                "height" : 100
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "fontFamily" : "System",
+              "autoresizingMask" : 45,
+              "fontSize" : 20,
+              "text" : "Jazz"
+            },
+            {
+              "CSSTextColor" : "rgba(72,63,77,1.00)",
+              "position" : {
+                "top" : 265,
+                "left" : 23
+              },
+              "fontName" : "_DEFAULT_BOLD_",
+              "$type" : "UIButton",
+              "frame" : {
+                "origin" : {
+                  "x" : 23,
+                  "y" : 265
+                },
+                "size" : {
+                  "width" : 130,
+                  "height" : 100
+                }
+              },
+              "hidden" : false,
+              "$id" : "UIButton7e36dae3b3c94ac0b6a616f048e52808",
+              "$domain" : "appDoo.iOS",
+              "backgroundColor" : "rgba(95,200,156,1.00)",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "actionType" : "objectAction",
+              "actionInfo" : {
+                "$type" : "ActionInfo",
+                "actionType" : "showScene",
+                "modalTransitionStyle" : "UIModalTransitionStyleCoverVertical",
+                "destinationSceneID" : "Scenec9527f099777452a81b2bf756f140383",
+                "$domain" : "appDoo",
+                "objectActionID" : "",
+                "type" : "showScene"
+              },
+              "userInteractionEnabled" : true,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglec3ae210ca636416ba666e9d44c31189a",
+                  "offset" : -140,
+                  "type" : "right",
+                  "$id" : "Objectf166d4a851b94ab5b57bf29811e76d39"
+                },
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglec3ae210ca636416ba666e9d44c31189a",
+                  "offset" : 10,
+                  "type" : "below",
+                  "$id" : "Object0d865e9132024224b71943f0988d8682"
+                }
+              ],
+              "name" : "5",
+              "size" : {
+                "width" : 130,
+                "height" : 100
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "fontFamily" : "System",
+              "autoresizingMask" : 45,
+              "fontSize" : 20,
+              "text" : "Classic FM"
+            },
+            {
+              "CSSTextColor" : "rgba(72,62,77,1.00)",
+              "position" : {
+                "top" : 145,
+                "left" : 173
+              },
+              "fontName" : "_DEFAULT_BOLD_",
+              "$type" : "UIButton",
+              "frame" : {
+                "origin" : {
+                  "x" : 173,
+                  "y" : 145
+                },
+                "size" : {
+                  "width" : 130,
+                  "height" : 100
+                }
+              },
+              "hidden" : false,
+              "$id" : "UIButton3ba4e6d550bf4f5f8d86ccddd3193586",
+              "$domain" : "appDoo.iOS",
+              "backgroundColor" : "rgba(95,200,156,1.00)",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "actionType" : "objectAction",
+              "actionInfo" : {
+                "$type" : "ActionInfo",
+                "actionType" : "showScene",
+                "modalTransitionStyle" : "UIModalTransitionStyleCoverVertical",
+                "destinationSceneID" : "Scene9296114ba0564b5596fa3410ffb95621",
+                "$domain" : "appDoo",
+                "objectActionID" : "",
+                "type" : "showScene"
+              },
+              "userInteractionEnabled" : true,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglec3ae210ca636416ba666e9d44c31189a",
+                  "offset" : 10,
+                  "type" : "right",
+                  "$id" : "Objectee13a229732e4ca6a1e42e70e038c4c9"
+                },
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglec3ae210ca636416ba666e9d44c31189a",
+                  "offset" : -110,
+                  "type" : "below",
+                  "$id" : "Object935ff479099a43f4b57624ca01586e64"
+                }
+              ],
+              "name" : "4",
+              "size" : {
+                "width" : 130,
+                "height" : 100
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "fontFamily" : "System",
+              "autoresizingMask" : 45,
+              "fontSize" : 20,
+              "text" : "Double J"
+            },
+            {
+              "CSSTextColor" : "rgba(72,63,77,1.00)",
+              "position" : {
+                "top" : 145,
+                "left" : 23
+              },
+              "fontName" : "_DEFAULT_BOLD_",
+              "$type" : "UIButton",
+              "frame" : {
+                "origin" : {
+                  "x" : 23,
+                  "y" : 145
+                },
+                "size" : {
+                  "width" : 130,
+                  "height" : 100
+                }
+              },
+              "hidden" : false,
+              "$id" : "UIButtona3a2f856a3b347b49e6ee6038f2d9b67",
+              "$domain" : "appDoo.iOS",
+              "backgroundColor" : "rgba(95,200,156,1.00)",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "actionType" : "objectAction",
+              "actionInfo" : {
+                "$type" : "ActionInfo",
+                "actionType" : "showScene",
+                "modalTransitionStyle" : "UIModalTransitionStyleCoverVertical",
+                "destinationSceneID" : "Scenee3a95002413a44938e2d188c849d131f",
+                "$domain" : "appDoo",
+                "objectActionID" : "",
+                "type" : "showScene"
+              },
+              "userInteractionEnabled" : true,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglec3ae210ca636416ba666e9d44c31189a",
+                  "offset" : -140,
+                  "type" : "right",
+                  "$id" : "Objectdfa135edc8fc46d4a4abbbc3ee871f33"
+                },
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglec3ae210ca636416ba666e9d44c31189a",
+                  "offset" : -110,
+                  "type" : "below",
+                  "$id" : "Objectd6fd06291a71457f9724cca71716568d"
+                }
+              ],
+              "name" : "3",
+              "size" : {
+                "width" : 130,
+                "height" : 100
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "fontFamily" : "System",
+              "autoresizingMask" : 45,
+              "fontSize" : 20,
+              "text" : "triple j"
+            },
+            {
+              "CSSTextColor" : "rgba(73,63,77,1.00)",
+              "position" : {
+                "top" : 25,
+                "left" : 173
+              },
+              "fontName" : "_DEFAULT_BOLD_",
+              "$type" : "UIButton",
+              "frame" : {
+                "origin" : {
+                  "x" : 173,
+                  "y" : 25
+                },
+                "size" : {
+                  "width" : 130,
+                  "height" : 100
+                }
+              },
+              "hidden" : false,
+              "$id" : "UIButton30f8c21c7e4749b693397682be9eb539",
+              "$domain" : "appDoo.iOS",
+              "backgroundColor" : "rgba(95,200,156,1.00)",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "actionType" : "objectAction",
+              "actionInfo" : {
+                "$type" : "ActionInfo",
+                "actionType" : "showScene",
+                "modalTransitionStyle" : "UIModalTransitionStyleCoverVertical",
+                "destinationSceneID" : "Scenebdee0a5897014517ab2c7de2ca428b32",
+                "$domain" : "appDoo",
+                "objectActionID" : "",
+                "type" : "showScene"
+              },
+              "userInteractionEnabled" : true,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglec3ae210ca636416ba666e9d44c31189a",
+                  "offset" : 10,
+                  "type" : "right",
+                  "$id" : "Objectca358c7158b2490fa22bdcc686140ac5"
+                },
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglec3ae210ca636416ba666e9d44c31189a",
+                  "offset" : -230,
+                  "type" : "below",
+                  "$id" : "Objectac6f2ed02c934c99941be2ef0e27207f"
+                }
+              ],
+              "name" : "2",
+              "size" : {
+                "width" : 130,
+                "height" : 100
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "fontFamily" : "System",
+              "autoresizingMask" : 45,
+              "fontSize" : 20,
+              "text" : "Grandstand"
+            },
+            {
+              "CSSTextColor" : "rgba(72,63,77,1.00)",
+              "position" : {
+                "top" : 25,
+                "left" : 23
+              },
+              "fontName" : "_DEFAULT_BOLD_",
+              "$type" : "UIButton",
+              "frame" : {
+                "origin" : {
+                  "x" : 23,
+                  "y" : 25
+                },
+                "size" : {
+                  "width" : 130,
+                  "height" : 100
+                }
+              },
+              "hidden" : false,
+              "$id" : "UIButtona176a1cf52d040a18dafe628384e7e32",
+              "$domain" : "appDoo.iOS",
+              "backgroundColor" : "rgba(95,200,156,1.00)",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "actionType" : "objectAction",
+              "actionInfo" : {
+                "$type" : "ActionInfo",
+                "actionType" : "showScene",
+                "modalTransitionStyle" : "UIModalTransitionStyleCoverVertical",
+                "destinationSceneID" : "Scene6bae25df54b647e2bbe063ca2607cd6c",
+                "$domain" : "appDoo",
+                "objectActionID" : "",
+                "type" : "showScene"
+              },
+              "userInteractionEnabled" : true,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglec3ae210ca636416ba666e9d44c31189a",
+                  "offset" : -140,
+                  "type" : "right",
+                  "$id" : "Object2a29f2fe2c904bfe9407465eaa02772d"
+                },
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglec3ae210ca636416ba666e9d44c31189a",
+                  "offset" : -230,
+                  "type" : "below",
+                  "$id" : "Objectaeeb78c828364b65bfc86c9a6593327e"
+                }
+              ],
+              "name" : "1",
+              "size" : {
+                "width" : 130,
+                "height" : 100
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "fontFamily" : "System",
+              "autoresizingMask" : 45,
+              "fontSize" : 20,
+              "text" : "NEWS"
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 504
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "name" : "Ansicht",
+          "$type" : "SceneRootView"
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appDoo.iOS"
+      },
+      "v_showsInTabBar" : false,
+      "navigationBar" : {
+        "$id" : "UINavigationBar79ec92ac112c44ec876f97550128d9a8",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appDoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "ABC Radio",
+        "heightIsEditable" : false,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "items" : [
+          {
+            "$type" : "UINavigationItem",
+            "$domain" : "appDoo.iOS",
+            "$id" : "UINavigationItem7714f5b09f83491aa6b5bbc7ebdb40a2"
+          }
+        ],
+        "barTintColor" : "rgba(95,200,156,1.00)",
+        "barStyle" : 1,
+        "hidden" : false,
+        "userInteractionEnabled" : true,
+        "$type" : "UINavigationBar"
+      },
+      "selectedObjectIDs" : [
+        "UIButtonab2a695155c0418db91ce9684a77c74f"
+      ],
+      "$type" : "Scene"
+    },
+    {
+      "$type" : "Scene",
+      "navigationBar" : {
+        "isExpandedInEditorOutline" : true,
+        "$id" : "UINavigationBar7dbf83bf18d54bdca4bca5dbcddaae82",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appDoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "ABC NEWS",
+        "tintColor" : "rgba(255,254,255,1.00)",
+        "heightIsEditable" : false,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "items" : [
+          {
+            "$id" : "UINavigationItem4d2d00d68a9e41fb8fcc867fc6e0b5a2",
+            "rightBarButtonItems" : [
+              {
+                "$type" : "UIBarButtonItem",
+                "systemItem" : "stop",
+                "actionType" : "objectAction",
+                "$id" : "UIBarButtonItem0a8e37987fca41bb9d816fd2c7fc823d",
+                "title" : "×",
+                "tag" : 0,
+                "$domain" : "appDoo.iOS",
+                "actionInfo" : {
+                  "type" : "navigateBack",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "navigateBack",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "itemType" : "systemItem"
+              }
+            ],
+            "$type" : "UINavigationItem",
+            "$domain" : "appDoo.iOS"
+          }
+        ],
+        "barTintColor" : "rgba(0,0,0,1.00)",
+        "barStyle" : 1,
+        "hidden" : false,
+        "userInteractionEnabled" : true,
+        "$type" : "UINavigationBar"
+      },
+      "positionOnOverview" : {
+        "top" : 951,
+        "left" : -1861
+      },
+      "viewController" : {
+        "$id" : "UIViewControllera94e608e90d2469f915b91545939f461",
+        "tabBarItem" : {
+          "$id" : "UITabBarIteme75c7bc099ab462fbe962599ac08c390",
+          "title" : "ABC NEWS",
+          "$type" : "UITabBarItem",
+          "$domain" : "appDoo.iOS"
+        },
+        "title" : "ABC NEWS",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "scrollLeft" : 0,
+          "$id" : "SceneRootViewd26c25b08f984a388243b2ffedf84768",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgba(72,63,77,1.00)",
+          "$domain" : "appDoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 504
+            }
+          },
+          "subviews" : [
+            {
+              "$id" : "DrawableEllipseb43bd37b3d7d4c0b919bad97aac3350b",
+              "borderColor" : "rgba(0,0,0,0.00)",
+              "position" : {
+                "top" : 284,
+                "left" : -43
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : -43,
+                  "y" : 284
+                },
+                "size" : {
+                  "width" : 400,
+                  "height" : 400
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 44,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableEllipsefde99092acac49b8b1bca4e1bee7eb07",
+                  "offset" : -101,
+                  "type" : "below",
+                  "$id" : "Objecteab764684a224751abb1f07ec37a04a4"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 400,
+                "height" : 400
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(158,54,167,0.16)",
+              "userInteractionEnabled" : true,
+              "name" : "Circle 2",
+              "$type" : "DrawableEllipse"
+            },
+            {
+              "$id" : "DrawableEllipsefde99092acac49b8b1bca4e1bee7eb07",
+              "borderColor" : "rgba(0,0,0,0.00)",
+              "position" : {
+                "top" : 85,
+                "left" : 113
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 113,
+                  "y" : 85
+                },
+                "size" : {
+                  "width" : 300,
+                  "height" : 300
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 33,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "MoviePlayerView1cf15c05b4e643b5a4055924640ac742",
+                  "offset" : 10,
+                  "type" : "below",
+                  "$id" : "Objecte06d3e0ac76840279c581ec65473301a"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 300,
+                "height" : 300
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(158,54,167,0.16)",
+              "userInteractionEnabled" : true,
+              "name" : "Circle 1",
+              "$type" : "DrawableEllipse"
+            },
+            {
+              "CSSTextColor" : "rgba(95,200,156,1.00)",
+              "position" : {
+                "top" : 213,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "Hyperlink",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 213
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 24
+                }
+              },
+              "hyperlinkTarget" : "web",
+              "highlightedColor" : "rgba(94,199,155,1.00)",
+              "$id" : "Hyperlink3c67882f2e6f4ddf9106eb71ca3d88f0",
+              "$domain" : "info.appdoo-mac",
+              "backgroundColor" : "rgb(255,255,255,0)",
+              "heightIsEditable" : true,
+              "inactiveColor" : "rgb(150,150,150)",
+              "hidden" : false,
+              "transform" : "",
+              "textAlignment" : "center",
+              "actionInfo" : {
+                "type" : "objectAction",
+                "modalTransitionStyle" : "-1",
+                "actionType" : "objectAction",
+                "objectActionID" : "",
+                "$type" : "ActionInfo",
+                "$domain" : "appDoo"
+              },
+              "userInteractionEnabled" : true,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabele2b7e8c0f025464eada07069644046f4",
+                  "offset" : 30,
+                  "type" : "below",
+                  "$id" : "Object3902551ff6ad4ae2ba6912b4163bcd2a"
+                }
+              ],
+              "name" : "Hyperlink",
+              "size" : {
+                "width" : 290,
+                "height" : 24
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "fontFamily" : "System",
+              "autoresizingMask" : 42,
+              "fontSize" : 20,
+              "text" : "ABC NEWS website",
+              "buttonStyle" : "custom",
+              "URLString" : "http:\/\/www.abc.net.au\/newsradio"
+            },
+            {
+              "layoutMode" : "autoFitHeight",
+              "position" : {
+                "top" : 105,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 105
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 78
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabele2b7e8c0f025464eada07069644046f4",
+              "textColor" : "rgba(254,255,255,1.00)",
+              "$domain" : "appDoo.iOS",
+              "heightIsEditable" : false,
+              "transform" : "",
+              "textAlignment" : "center",
+              "userInteractionEnabled" : true,
+              "name" : "Beschriftung",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "MoviePlayerView1cf15c05b4e643b5a4055924640ac742",
+                  "offset" : 30,
+                  "type" : "below",
+                  "$id" : "Objectd1224458b02f4170ab1e1fa1b663d30b"
+                }
+              ],
+              "size" : {
+                "width" : 290,
+                "height" : 78
+              },
+              "alpha" : 1,
+              "fontSize" : 20,
+              "autoresizingMask" : 42,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "Continuous national coverage of opinion-free, independent and factual news.",
+              "numberOfLines" : 0
+            },
+            {
+              "position" : {
+                "top" : 36,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 36
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 39
+                }
+              },
+              "$type" : "MoviePlayerView",
+              "backgroundPlayback" : true,
+              "hidden" : false,
+              "$id" : "MoviePlayerView1cf15c05b4e643b5a4055924640ac742",
+              "movieURLString" : 0,
+              "$domain" : "info.appdoo-mac",
+              "backgroundColor" : "rgba(72,63,77,1.00)",
+              "heightIsEditable" : true,
+              "repeat" : false,
+              "sourceType" : "remote",
+              "dataProvider" : {
+                "$type" : "MoviePlayerDataProvider",
+                "URLRequest" : {
+                  "$type" : "URLRequest",
+                  "$domain" : "Core"
+                },
+                "$id" : "MoviePlayerView1cf15c05b4e643b5a4055924640ac742DataProvider",
+                "actionInfo" : {
+                  "type" : "objectAction",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "objectAction",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "propertiesForBindings" : [
+                  "currentPlaybackTime",
+                  "currentPlaybackTimeString",
+                  "remainingPlaybackTimeString",
+                  "currentPlaybackProgress",
+                  "isPlaying",
+                  "isNotPlaying"
+                ],
+                "$domain" : "info.appdoo-mac",
+                "name" : "Medienwiedergabe",
+                "objectID" : "MoviePlayerView1cf15c05b4e643b5a4055924640ac742"
+              },
+              "transform" : "",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectangle06946f4c4e2c4eb6970e29861b7077fd",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Object98cd07ed869f4dbc9ac23523bbaa4fd8"
+                }
+              ],
+              "showsControls" : true,
+              "userInteractionEnabled" : true,
+              "size" : {
+                "width" : 320,
+                "height" : 39
+              },
+              "alpha" : 1,
+              "autoresizingMask" : 42,
+              "autoplay" : true
+            },
+            {
+              "$id" : "DrawableRectangle06946f4c4e2c4eb6970e29861b7077fd",
+              "borderColor" : "rgba(173,44,172,1.00)",
+              "position" : {
+                "top" : 31,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 31
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 5
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 47,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabela5941a83de6a4ecf9cf3708e6c69ed8b",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Objecte2efd759f13745acbff4f7f4eeddf265"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 5
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(173,44,172,1.00)",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE bottom",
+              "$type" : "DrawableRectangle"
+            },
+            {
+              "layoutMode" : "singleLine",
+              "position" : {
+                "top" : 5,
+                "left" : 0
+              },
+              "fontName" : "_DEFAULT_BOLD_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 5
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 26
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabela5941a83de6a4ecf9cf3708e6c69ed8b",
+              "textColor" : "rgba(254,255,255,1.00)",
+              "$domain" : "appDoo.iOS",
+              "backgroundColor" : "rgba(173,44,172,1.00)",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "textAlignment" : "center",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglee4de119ffbb24862a72711d49dc3c499",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Object5adeef85612e47ca8b0c6e749c67b02a"
+                }
+              ],
+              "size" : {
+                "width" : 320,
+                "height" : 26
+              },
+              "alpha" : 1,
+              "fontSize" : 20,
+              "autoresizingMask" : 34,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "LIVE",
+              "numberOfLines" : 1
+            },
+            {
+              "$id" : "DrawableRectanglee4de119ffbb24862a72711d49dc3c499",
+              "borderColor" : "rgba(173,44,172,1.00)",
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 5
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 39,
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 5
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(173,44,172,1.00)",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE top",
+              "$type" : "DrawableRectangle"
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 504
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "$type" : "SceneRootView"
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appDoo.iOS"
+      },
+      "$id" : "Scene6bae25df54b647e2bbe063ca2607cd6c",
+      "v_separateStatusBar" : false,
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "$domain" : "appDoo.iOS",
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "hasCustomInterfaceOrientations" : false,
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      }
+    },
+    {
+      "$type" : "Scene",
+      "navigationBar" : {
+        "isExpandedInEditorOutline" : true,
+        "$id" : "UINavigationBar1b3279d2970d4689804a940506009e81",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appDoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "ABC Grandstand",
+        "tintColor" : "rgba(255,254,255,1.00)",
+        "transform" : "",
+        "heightIsEditable" : false,
+        "alpha" : 1,
+        "items" : [
+          {
+            "$id" : "UINavigationItem95184e8255324cadb697aef442668950",
+            "rightBarButtonItems" : [
+              {
+                "$type" : "UIBarButtonItem",
+                "systemItem" : "stop",
+                "actionType" : "objectAction",
+                "$id" : "UIBarButtonItemcbb118ffd8314dffbb85de540fc1fa37",
+                "title" : "×",
+                "tag" : 0,
+                "$domain" : "appDoo.iOS",
+                "actionInfo" : {
+                  "type" : "navigateBack",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "navigateBack",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "itemType" : "systemItem"
+              }
+            ],
+            "$type" : "UINavigationItem",
+            "$domain" : "appDoo.iOS"
+          }
+        ],
+        "barTintColor" : "rgba(0,0,0,1.00)",
+        "barStyle" : 1,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "userInteractionEnabled" : true,
+        "hidden" : false,
+        "$type" : "UINavigationBar"
+      },
+      "positionOnOverview" : {
+        "top" : 954,
+        "left" : -1497
+      },
+      "viewController" : {
+        "$id" : "UIViewController23a36b9ec8a34b9ca765fdeb188c2014",
+        "tabBarItem" : {
+          "$id" : "UITabBarItem22e879b8a8c348358f90e4cad4c97358",
+          "title" : "ABC Grandstand",
+          "$type" : "UITabBarItem",
+          "$domain" : "appDoo.iOS"
+        },
+        "title" : "ABC Grandstand",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "scrollLeft" : 0,
+          "$id" : "SceneRootView472f43df04b7424ab35bcd8a35df8a82",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgba(72,63,77,1.00)",
+          "$domain" : "appDoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 504
+            }
+          },
+          "subviews" : [
+            {
+              "$id" : "DrawableEllipse3e622ea8938148e1855cb4c16699a25b",
+              "borderColor" : "rgba(0,0,0,0.00)",
+              "position" : {
+                "top" : 284,
+                "left" : -43
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : -43,
+                  "y" : 284
+                },
+                "size" : {
+                  "width" : 400,
+                  "height" : 400
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 44,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableEllipse9d43d4580a9f4b229599dcfa82ddcd30",
+                  "offset" : -101,
+                  "type" : "below",
+                  "$id" : "Object4b1ada6057e94e85a817f7d73eecf9a7"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 400,
+                "height" : 400
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(158,54,167,0.16)",
+              "userInteractionEnabled" : true,
+              "name" : "Circle 2",
+              "$type" : "DrawableEllipse"
+            },
+            {
+              "$id" : "DrawableEllipse9d43d4580a9f4b229599dcfa82ddcd30",
+              "borderColor" : "rgba(0,0,0,0.00)",
+              "position" : {
+                "top" : 85,
+                "left" : 113
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 113,
+                  "y" : 85
+                },
+                "size" : {
+                  "width" : 300,
+                  "height" : 300
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 33,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "MoviePlayerView8399d88ce6824b219ac8b52fa99e493e",
+                  "offset" : 10,
+                  "type" : "below",
+                  "$id" : "Object3c68c2539f7b4945a326d0905774d2c4"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 300,
+                "height" : 300
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(158,54,167,0.16)",
+              "userInteractionEnabled" : true,
+              "name" : "Circle 1",
+              "$type" : "DrawableEllipse"
+            },
+            {
+              "CSSTextColor" : "rgba(95,200,156,1.00)",
+              "position" : {
+                "top" : 239,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "Hyperlink",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 239
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 24
+                }
+              },
+              "hyperlinkTarget" : "web",
+              "highlightedColor" : "rgba(94,199,155,1.00)",
+              "$id" : "Hyperlinka1fc52ba054f4f1a93a974ce947d033c",
+              "$domain" : "info.appdoo-mac",
+              "backgroundColor" : "rgb(255,255,255,0)",
+              "heightIsEditable" : true,
+              "inactiveColor" : "rgb(150,150,150)",
+              "hidden" : false,
+              "transform" : "",
+              "textAlignment" : "center",
+              "actionInfo" : {
+                "type" : "objectAction",
+                "modalTransitionStyle" : "-1",
+                "actionType" : "objectAction",
+                "objectActionID" : "",
+                "$type" : "ActionInfo",
+                "$domain" : "appDoo"
+              },
+              "userInteractionEnabled" : true,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabel8376a4da7b274bafa7c6ba4d1cbfc5f6",
+                  "offset" : 30,
+                  "type" : "below",
+                  "$id" : "Object86057515c7d24564826f5b2b87e9e317"
+                }
+              ],
+              "name" : "Hyperlink",
+              "size" : {
+                "width" : 290,
+                "height" : 24
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "fontFamily" : "System",
+              "autoresizingMask" : 42,
+              "fontSize" : 20,
+              "text" : "ABC Grandstand website",
+              "buttonStyle" : "custom",
+              "URLString" : "http:\/\/www.abc.net.au\/sport"
+            },
+            {
+              "layoutMode" : "autoFitHeight",
+              "position" : {
+                "top" : 105,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 105
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 104
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabel8376a4da7b274bafa7c6ba4d1cbfc5f6",
+              "textColor" : "rgba(254,255,255,1.00)",
+              "$domain" : "appDoo.iOS",
+              "heightIsEditable" : false,
+              "transform" : "",
+              "textAlignment" : "center",
+              "userInteractionEnabled" : true,
+              "name" : "Beschriftung",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "MoviePlayerView8399d88ce6824b219ac8b52fa99e493e",
+                  "offset" : 30,
+                  "type" : "below",
+                  "$id" : "Objecta637e73e151b409c9a473e488d0994c4"
+                }
+              ],
+              "size" : {
+                "width" : 290,
+                "height" : 104
+              },
+              "alpha" : 1,
+              "fontSize" : 20,
+              "autoresizingMask" : 42,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "Coverage of the best sport from around the country, including men’s & women’s international cricket.",
+              "numberOfLines" : 0
+            },
+            {
+              "position" : {
+                "top" : 36,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 36
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 39
+                }
+              },
+              "$type" : "MoviePlayerView",
+              "backgroundPlayback" : true,
+              "hidden" : false,
+              "$id" : "MoviePlayerView8399d88ce6824b219ac8b52fa99e493e",
+              "movieURLString" : "http:\/\/www.abc.net.au\/res\/streaming\/audio\/aac\/grandstand.pls",
+              "$domain" : "info.appdoo-mac",
+              "backgroundColor" : "rgba(72,63,77,1.00)",
+              "heightIsEditable" : true,
+              "repeat" : false,
+              "sourceType" : "remote",
+              "dataProvider" : {
+                "$type" : "MoviePlayerDataProvider",
+                "URLRequest" : {
+                  "$type" : "URLRequest",
+                  "$domain" : "Core"
+                },
+                "$id" : "MoviePlayerDataProvidere5e0398c42054526beab1bace3a595f2",
+                "actionInfo" : {
+                  "type" : "objectAction",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "objectAction",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "propertiesForBindings" : [
+                  "currentPlaybackTime",
+                  "currentPlaybackTimeString",
+                  "remainingPlaybackTimeString",
+                  "currentPlaybackProgress",
+                  "isPlaying",
+                  "isNotPlaying"
+                ],
+                "$domain" : "info.appdoo-mac",
+                "name" : "Medienwiedergabe",
+                "objectID" : "MoviePlayerView8399d88ce6824b219ac8b52fa99e493e"
+              },
+              "transform" : "",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglee6d9893cf2174ad887419f0882e986de",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Object929e4dd98ebf445786dc3803818d34f3"
+                }
+              ],
+              "showsControls" : true,
+              "userInteractionEnabled" : true,
+              "size" : {
+                "width" : 320,
+                "height" : 39
+              },
+              "alpha" : 1,
+              "autoresizingMask" : 42,
+              "autoplay" : true
+            },
+            {
+              "$id" : "DrawableRectanglee6d9893cf2174ad887419f0882e986de",
+              "borderColor" : "rgba(173,44,172,1.00)",
+              "position" : {
+                "top" : 31,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 31
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 5
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 47,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabel2041fdd63af545f2bb0fba74423c90a7",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Object46542c6019fd402c8dca034d91644233"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 5
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(173,44,172,1.00)",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE bottom",
+              "$type" : "DrawableRectangle"
+            },
+            {
+              "layoutMode" : "singleLine",
+              "position" : {
+                "top" : 5,
+                "left" : 0
+              },
+              "fontName" : "_DEFAULT_BOLD_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 5
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 26
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabel2041fdd63af545f2bb0fba74423c90a7",
+              "textColor" : "rgba(254,255,255,1.00)",
+              "$domain" : "appDoo.iOS",
+              "backgroundColor" : "rgba(173,44,172,1.00)",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "textAlignment" : "center",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglebc15940291204e53bb60d0d1edc17301",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Object3935ccad571248baadbb4612525f041a"
+                }
+              ],
+              "size" : {
+                "width" : 320,
+                "height" : 26
+              },
+              "alpha" : 1,
+              "fontSize" : 20,
+              "autoresizingMask" : 34,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "LIVE",
+              "numberOfLines" : 1
+            },
+            {
+              "$id" : "DrawableRectanglebc15940291204e53bb60d0d1edc17301",
+              "borderColor" : "rgba(173,44,172,1.00)",
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 5
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 39,
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 5
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(173,44,172,1.00)",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE top",
+              "$type" : "DrawableRectangle"
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 504
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "$type" : "SceneRootView"
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appDoo.iOS"
+      },
+      "$id" : "Scenebdee0a5897014517ab2c7de2ca428b32",
+      "v_separateStatusBar" : false,
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "$domain" : "appDoo.iOS",
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "hasCustomInterfaceOrientations" : false,
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      }
+    },
+    {
+      "$type" : "Scene",
+      "navigationBar" : {
+        "isExpandedInEditorOutline" : true,
+        "$id" : "UINavigationBarb1fe85543ff84cbda64f611300d1013f",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appDoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "triple j",
+        "tintColor" : "rgba(255,254,255,1.00)",
+        "transform" : "",
+        "heightIsEditable" : false,
+        "alpha" : 1,
+        "items" : [
+          {
+            "$id" : "UINavigationItemaa5f53f4ee95422baafb0415f9f955ef",
+            "rightBarButtonItems" : [
+              {
+                "$type" : "UIBarButtonItem",
+                "systemItem" : "stop",
+                "actionType" : "objectAction",
+                "$id" : "UIBarButtonItem00e580c6b17b48a5902491cb3494f931",
+                "title" : "×",
+                "tag" : 0,
+                "$domain" : "appDoo.iOS",
+                "actionInfo" : {
+                  "type" : "navigateBack",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "navigateBack",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "itemType" : "systemItem"
+              }
+            ],
+            "$type" : "UINavigationItem",
+            "$domain" : "appDoo.iOS"
+          }
+        ],
+        "barTintColor" : "rgba(0,0,0,1.00)",
+        "barStyle" : 1,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "userInteractionEnabled" : true,
+        "hidden" : false,
+        "$type" : "UINavigationBar"
+      },
+      "positionOnOverview" : {
+        "top" : 951,
+        "left" : -1140
+      },
+      "viewController" : {
+        "$id" : "UIViewControllere24c4da7b92841d19c2632e0acea58bd",
+        "tabBarItem" : {
+          "$id" : "UITabBarIteme0863b0438564415a19dcd98010dc6b2",
+          "title" : "triple j",
+          "$type" : "UITabBarItem",
+          "$domain" : "appDoo.iOS"
+        },
+        "title" : "triple j",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "scrollLeft" : 0,
+          "$id" : "SceneRootView80af634d44634382b46e5d38cf69755e",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgba(72,63,77,1.00)",
+          "$domain" : "appDoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 504
+            }
+          },
+          "subviews" : [
+            {
+              "$id" : "DrawableEllipse3ca61d6de29f4890bf5b02bbd6ec6be3",
+              "borderColor" : "rgba(0,0,0,0.00)",
+              "position" : {
+                "top" : 284,
+                "left" : -43
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : -43,
+                  "y" : 284
+                },
+                "size" : {
+                  "width" : 400,
+                  "height" : 400
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 44,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableEllipse05e3780e32e44cac9691249f2df683d9",
+                  "offset" : -101,
+                  "type" : "below",
+                  "$id" : "Objectf95943473d8f48b3bde60ceb60b326eb"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 400,
+                "height" : 400
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(158,54,167,0.16)",
+              "userInteractionEnabled" : true,
+              "name" : "Circle 2",
+              "$type" : "DrawableEllipse"
+            },
+            {
+              "$id" : "DrawableEllipse05e3780e32e44cac9691249f2df683d9",
+              "borderColor" : "rgba(0,0,0,0.00)",
+              "position" : {
+                "top" : 85,
+                "left" : 113
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 113,
+                  "y" : 85
+                },
+                "size" : {
+                  "width" : 300,
+                  "height" : 300
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 33,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "MoviePlayerView3fbc3168841c4188991cbc1992d7f47c",
+                  "offset" : 10,
+                  "type" : "below",
+                  "$id" : "Object1e6861cacaa545989d8fff209eb83f0b"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 300,
+                "height" : 300
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(158,54,167,0.16)",
+              "userInteractionEnabled" : true,
+              "name" : "Circle 1",
+              "$type" : "DrawableEllipse"
+            },
+            {
+              "CSSTextColor" : "rgba(95,200,156,1.00)",
+              "position" : {
+                "top" : 187,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "Hyperlink",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 187
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 24
+                }
+              },
+              "hyperlinkTarget" : "web",
+              "highlightedColor" : "rgba(94,199,155,1.00)",
+              "$id" : "Hyperlinkf6dcd1484d1d400e8775ff6efd779e16",
+              "$domain" : "info.appdoo-mac",
+              "backgroundColor" : "rgb(255,255,255,0)",
+              "heightIsEditable" : true,
+              "inactiveColor" : "rgb(150,150,150)",
+              "hidden" : false,
+              "transform" : "",
+              "textAlignment" : "center",
+              "actionInfo" : {
+                "type" : "objectAction",
+                "modalTransitionStyle" : "-1",
+                "actionType" : "objectAction",
+                "objectActionID" : "",
+                "$type" : "ActionInfo",
+                "$domain" : "appDoo"
+              },
+              "userInteractionEnabled" : true,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabel26693af72c3342e391a5e6555ca40359",
+                  "offset" : 30,
+                  "type" : "below",
+                  "$id" : "Objecta59ce9e04c45466190567fa1a2374165"
+                }
+              ],
+              "name" : "Hyperlink",
+              "size" : {
+                "width" : 290,
+                "height" : 24
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "fontFamily" : "System",
+              "autoresizingMask" : 42,
+              "fontSize" : 20,
+              "text" : "triple j website",
+              "buttonStyle" : "custom",
+              "URLString" : "http:\/\/www.abc.net.au\/triplej\/homeandhosed\/"
+            },
+            {
+              "layoutMode" : "autoFitHeight",
+              "position" : {
+                "top" : 105,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 105
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 52
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabel26693af72c3342e391a5e6555ca40359",
+              "textColor" : "rgba(254,255,255,1.00)",
+              "$domain" : "appDoo.iOS",
+              "heightIsEditable" : false,
+              "transform" : "",
+              "textAlignment" : "center",
+              "userInteractionEnabled" : true,
+              "name" : "Beschriftung",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "MoviePlayerView3fbc3168841c4188991cbc1992d7f47c",
+                  "offset" : 30,
+                  "type" : "below",
+                  "$id" : "Objectd5089cf1198946d48f2a11b745d95212"
+                }
+              ],
+              "size" : {
+                "width" : 290,
+                "height" : 52
+              },
+              "alpha" : 1,
+              "fontSize" : 20,
+              "autoresizingMask" : 42,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "Live music, your favourite bands and the best new music.",
+              "numberOfLines" : 0
+            },
+            {
+              "position" : {
+                "top" : 36,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 36
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 39
+                }
+              },
+              "$type" : "MoviePlayerView",
+              "backgroundPlayback" : true,
+              "hidden" : false,
+              "$id" : "MoviePlayerView3fbc3168841c4188991cbc1992d7f47c",
+              "movieURLString" : "http:\/\/www.abc.net.au\/res\/streaming\/audio\/aac\/triplej.pls",
+              "$domain" : "info.appdoo-mac",
+              "backgroundColor" : "rgba(72,63,77,1.00)",
+              "heightIsEditable" : true,
+              "repeat" : false,
+              "sourceType" : "remote",
+              "dataProvider" : {
+                "$type" : "MoviePlayerDataProvider",
+                "URLRequest" : {
+                  "$type" : "URLRequest",
+                  "$domain" : "Core"
+                },
+                "$id" : "MoviePlayerDataProvidera3e122a3b19a473d8a14db36b551756d",
+                "actionInfo" : {
+                  "type" : "objectAction",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "objectAction",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "propertiesForBindings" : [
+                  "currentPlaybackTime",
+                  "currentPlaybackTimeString",
+                  "remainingPlaybackTimeString",
+                  "currentPlaybackProgress",
+                  "isPlaying",
+                  "isNotPlaying"
+                ],
+                "$domain" : "info.appdoo-mac",
+                "name" : "Medienwiedergabe",
+                "objectID" : "MoviePlayerView3fbc3168841c4188991cbc1992d7f47c"
+              },
+              "transform" : "",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectangle8af91381c72d492f93dea2d1995506da",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Objecte7bff73a13fe4afe8226b8ece4dfaeca"
+                }
+              ],
+              "showsControls" : true,
+              "userInteractionEnabled" : true,
+              "size" : {
+                "width" : 320,
+                "height" : 39
+              },
+              "alpha" : 1,
+              "autoresizingMask" : 42,
+              "autoplay" : true
+            },
+            {
+              "$id" : "DrawableRectangle8af91381c72d492f93dea2d1995506da",
+              "borderColor" : "rgba(173,44,172,1.00)",
+              "position" : {
+                "top" : 31,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 31
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 5
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 47,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabeld04807b0f4ca47a1a350fd19e125dc52",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Objectdbadb4ef71014131b35c76355ac70a72"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 5
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(173,44,172,1.00)",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE bottom",
+              "$type" : "DrawableRectangle"
+            },
+            {
+              "layoutMode" : "singleLine",
+              "position" : {
+                "top" : 5,
+                "left" : 0
+              },
+              "fontName" : "_DEFAULT_BOLD_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 5
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 26
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabeld04807b0f4ca47a1a350fd19e125dc52",
+              "textColor" : "rgba(254,255,255,1.00)",
+              "$domain" : "appDoo.iOS",
+              "backgroundColor" : "rgba(173,44,172,1.00)",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "textAlignment" : "center",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectangle2a6839eeac62495a9edabca79d9360bd",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Object74e44030140846a4b603182a831d50a4"
+                }
+              ],
+              "size" : {
+                "width" : 320,
+                "height" : 26
+              },
+              "alpha" : 1,
+              "fontSize" : 20,
+              "autoresizingMask" : 34,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "LIVE",
+              "numberOfLines" : 1
+            },
+            {
+              "$id" : "DrawableRectangle2a6839eeac62495a9edabca79d9360bd",
+              "borderColor" : "rgba(173,44,172,1.00)",
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 5
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 39,
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 5
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(173,44,172,1.00)",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE top",
+              "$type" : "DrawableRectangle"
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 504
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "$type" : "SceneRootView"
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appDoo.iOS"
+      },
+      "$id" : "Scenee3a95002413a44938e2d188c849d131f",
+      "v_separateStatusBar" : false,
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "$domain" : "appDoo.iOS",
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "hasCustomInterfaceOrientations" : false,
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      }
+    },
+    {
+      "$type" : "Scene",
+      "navigationBar" : {
+        "isExpandedInEditorOutline" : true,
+        "$id" : "UINavigationBarf48fd4244d9841f69818f19a0271633d",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appDoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "Double J",
+        "tintColor" : "rgba(255,254,255,1.00)",
+        "transform" : "",
+        "heightIsEditable" : false,
+        "alpha" : 1,
+        "items" : [
+          {
+            "$id" : "UINavigationItemd6a52ababdfb4377bc08e5042df49e8e",
+            "rightBarButtonItems" : [
+              {
+                "$type" : "UIBarButtonItem",
+                "systemItem" : "stop",
+                "actionType" : "objectAction",
+                "$id" : "UIBarButtonItemede40114113843ce9120b1d2be02ebad",
+                "title" : "×",
+                "tag" : 0,
+                "$domain" : "appDoo.iOS",
+                "actionInfo" : {
+                  "type" : "navigateBack",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "navigateBack",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "itemType" : "systemItem"
+              }
+            ],
+            "$type" : "UINavigationItem",
+            "$domain" : "appDoo.iOS"
+          }
+        ],
+        "barTintColor" : "rgba(0,0,0,1.00)",
+        "barStyle" : 1,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "userInteractionEnabled" : true,
+        "hidden" : false,
+        "$type" : "UINavigationBar"
+      },
+      "positionOnOverview" : {
+        "top" : 951,
+        "left" : -776
+      },
+      "viewController" : {
+        "$id" : "UIViewControllerf08f25987eb243c4bedb6bd5a03ba4cb",
+        "tabBarItem" : {
+          "$id" : "UITabBarItem77fa01ffe88a48779f90d9a779e15869",
+          "title" : "Double J",
+          "$type" : "UITabBarItem",
+          "$domain" : "appDoo.iOS"
+        },
+        "title" : "Double J",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "scrollLeft" : 0,
+          "$id" : "SceneRootViewcf0fed7058dd4c1990d0957ae306d249",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgba(72,63,77,1.00)",
+          "$domain" : "appDoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 504
+            }
+          },
+          "subviews" : [
+            {
+              "$id" : "DrawableEllipsee9f3a4ca6b6043ec82a279871bd19d72",
+              "borderColor" : "rgba(0,0,0,0.00)",
+              "position" : {
+                "top" : 284,
+                "left" : -43
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : -43,
+                  "y" : 284
+                },
+                "size" : {
+                  "width" : 400,
+                  "height" : 400
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 44,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableEllipsedc8a1d09ef244308974bc747dcc75fae",
+                  "offset" : -101,
+                  "type" : "below",
+                  "$id" : "Objecta65516e3fbe54f37b6777c4567a18f7f"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 400,
+                "height" : 400
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(158,54,167,0.16)",
+              "userInteractionEnabled" : true,
+              "name" : "Circle 2",
+              "$type" : "DrawableEllipse"
+            },
+            {
+              "$id" : "DrawableEllipsedc8a1d09ef244308974bc747dcc75fae",
+              "borderColor" : "rgba(0,0,0,0.00)",
+              "position" : {
+                "top" : 85,
+                "left" : 113
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 113,
+                  "y" : 85
+                },
+                "size" : {
+                  "width" : 300,
+                  "height" : 300
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 33,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "MoviePlayerView124415c3383440e78107a08915d16e50",
+                  "offset" : 10,
+                  "type" : "below",
+                  "$id" : "Object0ef852dfa3ea46b3b99715bab1d4f3a0"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 300,
+                "height" : 300
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(158,54,167,0.16)",
+              "userInteractionEnabled" : true,
+              "name" : "Circle 1",
+              "$type" : "DrawableEllipse"
+            },
+            {
+              "layoutMode" : "autoFitHeight",
+              "position" : {
+                "top" : 105,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 105
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 78
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabel1f4a30b4e1744443b8e27da4f25f9946",
+              "textColor" : "rgba(254,255,255,1.00)",
+              "$domain" : "appDoo.iOS",
+              "heightIsEditable" : false,
+              "transform" : "",
+              "textAlignment" : "center",
+              "userInteractionEnabled" : true,
+              "name" : "Beschriftung",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "MoviePlayerView124415c3383440e78107a08915d16e50",
+                  "offset" : 30,
+                  "type" : "below",
+                  "$id" : "Objectbd511c20e83440558644543350b8c423"
+                }
+              ],
+              "size" : {
+                "width" : 290,
+                "height" : 78
+              },
+              "alpha" : 1,
+              "fontSize" : 20,
+              "autoresizingMask" : 42,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "A mix of your favourite music, new tunes and the stories behind the music.",
+              "numberOfLines" : 0
+            },
+            {
+              "position" : {
+                "top" : 36,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 36
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 39
+                }
+              },
+              "$type" : "MoviePlayerView",
+              "backgroundPlayback" : true,
+              "hidden" : false,
+              "$id" : "MoviePlayerView124415c3383440e78107a08915d16e50",
+              "movieURLString" : "http:\/\/www.abc.net.au\/res\/streaming\/audio\/aac\/dig_music.pls",
+              "$domain" : "info.appdoo-mac",
+              "backgroundColor" : "rgba(72,63,77,1.00)",
+              "heightIsEditable" : true,
+              "repeat" : false,
+              "sourceType" : "remote",
+              "dataProvider" : {
+                "$type" : "MoviePlayerDataProvider",
+                "URLRequest" : {
+                  "$type" : "URLRequest",
+                  "$domain" : "Core"
+                },
+                "$id" : "MoviePlayerDataProviderd55fceb180d44b62a4cdf6fd9f8ce89c",
+                "actionInfo" : {
+                  "type" : "objectAction",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "objectAction",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "propertiesForBindings" : [
+                  "currentPlaybackTime",
+                  "currentPlaybackTimeString",
+                  "remainingPlaybackTimeString",
+                  "currentPlaybackProgress",
+                  "isPlaying",
+                  "isNotPlaying"
+                ],
+                "$domain" : "info.appdoo-mac",
+                "name" : "Medienwiedergabe",
+                "objectID" : "MoviePlayerView124415c3383440e78107a08915d16e50"
+              },
+              "transform" : "",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectangleeb171f01f72440bea3c367d73341bad9",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Object429e2ce7b21341a4ad61c5b52c92eab2"
+                }
+              ],
+              "showsControls" : true,
+              "userInteractionEnabled" : true,
+              "size" : {
+                "width" : 320,
+                "height" : 39
+              },
+              "alpha" : 1,
+              "autoresizingMask" : 42,
+              "autoplay" : true
+            },
+            {
+              "$id" : "DrawableRectangleeb171f01f72440bea3c367d73341bad9",
+              "borderColor" : "rgba(173,44,172,1.00)",
+              "position" : {
+                "top" : 31,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 31
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 5
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 47,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabelc483601c65684128ae5cf37c6973f9ab",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Object1eb8422ed3a14cff9146ec396bdb8d73"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 5
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(173,44,172,1.00)",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE bottom",
+              "$type" : "DrawableRectangle"
+            },
+            {
+              "layoutMode" : "singleLine",
+              "position" : {
+                "top" : 5,
+                "left" : 0
+              },
+              "fontName" : "_DEFAULT_BOLD_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 5
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 26
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabelc483601c65684128ae5cf37c6973f9ab",
+              "textColor" : "rgba(254,255,255,1.00)",
+              "$domain" : "appDoo.iOS",
+              "backgroundColor" : "rgba(173,44,172,1.00)",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "textAlignment" : "center",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectangle984e3cdba65b4720a32e826f99cc8174",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Object9354e43cce1c4141b96e4e35acd6fc00"
+                }
+              ],
+              "size" : {
+                "width" : 320,
+                "height" : 26
+              },
+              "alpha" : 1,
+              "fontSize" : 20,
+              "autoresizingMask" : 34,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "LIVE",
+              "numberOfLines" : 1
+            },
+            {
+              "$id" : "DrawableRectangle984e3cdba65b4720a32e826f99cc8174",
+              "borderColor" : "rgba(173,44,172,1.00)",
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 5
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 39,
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 5
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(173,44,172,1.00)",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE top",
+              "$type" : "DrawableRectangle"
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 504
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "$type" : "SceneRootView"
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appDoo.iOS"
+      },
+      "$id" : "Scene9296114ba0564b5596fa3410ffb95621",
+      "v_separateStatusBar" : false,
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "$domain" : "appDoo.iOS",
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "hasCustomInterfaceOrientations" : false,
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      }
+    },
+    {
+      "$type" : "Scene",
+      "navigationBar" : {
+        "isExpandedInEditorOutline" : true,
+        "$id" : "UINavigationBar62c92c51c07445ef8ec0f9b96290a785",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appDoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "ABC Classic FM",
+        "tintColor" : "rgba(255,254,255,1.00)",
+        "transform" : "",
+        "heightIsEditable" : false,
+        "alpha" : 1,
+        "items" : [
+          {
+            "$id" : "UINavigationItem5e2a1e8f4404499a98223f0ee5175701",
+            "rightBarButtonItems" : [
+              {
+                "$type" : "UIBarButtonItem",
+                "systemItem" : "stop",
+                "actionType" : "objectAction",
+                "$id" : "UIBarButtonItem1da4e39815dd48aaa1decccab512aeab",
+                "title" : "×",
+                "tag" : 0,
+                "$domain" : "appDoo.iOS",
+                "actionInfo" : {
+                  "type" : "navigateBack",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "navigateBack",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "itemType" : "systemItem"
+              }
+            ],
+            "$type" : "UINavigationItem",
+            "$domain" : "appDoo.iOS"
+          }
+        ],
+        "barTintColor" : "rgba(0,0,0,1.00)",
+        "barStyle" : 1,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "userInteractionEnabled" : true,
+        "hidden" : false,
+        "$type" : "UINavigationBar"
+      },
+      "positionOnOverview" : {
+        "top" : 951,
+        "left" : -415
+      },
+      "viewController" : {
+        "$id" : "UIViewControllerdf08027907204f4e9045b1ad18103dce",
+        "tabBarItem" : {
+          "$id" : "UITabBarItem138f5ccabf074fbdacdd619e77342ea3",
+          "title" : "ABC Classic FM",
+          "$type" : "UITabBarItem",
+          "$domain" : "appDoo.iOS"
+        },
+        "title" : "ABC Classic FM",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "scrollLeft" : 0,
+          "$id" : "SceneRootView716eae6f110b43f58d156f036a262f6a",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgba(72,63,77,1.00)",
+          "$domain" : "appDoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 504
+            }
+          },
+          "subviews" : [
+            {
+              "$id" : "DrawableEllipse98bbd747089f489fb6185d5a34ec45a0",
+              "borderColor" : "rgba(0,0,0,0.00)",
+              "position" : {
+                "top" : 284,
+                "left" : -43
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : -43,
+                  "y" : 284
+                },
+                "size" : {
+                  "width" : 400,
+                  "height" : 400
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 44,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableEllipse862619f531eb478f8da1c0a043d10808",
+                  "offset" : -101,
+                  "type" : "below",
+                  "$id" : "Objectb492bd3993384844bedf99a6fd535a9b"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 400,
+                "height" : 400
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(158,54,167,0.16)",
+              "userInteractionEnabled" : true,
+              "name" : "Circle 2",
+              "$type" : "DrawableEllipse"
+            },
+            {
+              "$id" : "DrawableEllipse862619f531eb478f8da1c0a043d10808",
+              "borderColor" : "rgba(0,0,0,0.00)",
+              "position" : {
+                "top" : 85,
+                "left" : 113
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 113,
+                  "y" : 85
+                },
+                "size" : {
+                  "width" : 300,
+                  "height" : 300
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 33,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "MoviePlayerView070eadcf44f247868dd125f899550bf5",
+                  "offset" : 10,
+                  "type" : "below",
+                  "$id" : "Object9e65ce1aed6e46f9bbbe596127bcb454"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 300,
+                "height" : 300
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(158,54,167,0.16)",
+              "userInteractionEnabled" : true,
+              "name" : "Circle 1",
+              "$type" : "DrawableEllipse"
+            },
+            {
+              "CSSTextColor" : "rgba(95,200,156,1.00)",
+              "position" : {
+                "top" : 213,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "Hyperlink",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 213
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 24
+                }
+              },
+              "hyperlinkTarget" : "web",
+              "highlightedColor" : "rgba(94,199,155,1.00)",
+              "$id" : "Hyperlinkaf10092e6a4a4e2a935e5bfc1578b1bf",
+              "$domain" : "info.appdoo-mac",
+              "backgroundColor" : "rgb(255,255,255,0)",
+              "heightIsEditable" : true,
+              "inactiveColor" : "rgb(150,150,150)",
+              "hidden" : false,
+              "transform" : "",
+              "textAlignment" : "center",
+              "actionInfo" : {
+                "type" : "objectAction",
+                "modalTransitionStyle" : "-1",
+                "actionType" : "objectAction",
+                "objectActionID" : "",
+                "$type" : "ActionInfo",
+                "$domain" : "appDoo"
+              },
+              "userInteractionEnabled" : true,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabel5b649ace67454ad5a6804775899c9bb8",
+                  "offset" : 30,
+                  "type" : "below",
+                  "$id" : "Object4484895bb919440d8d6900c9c5b5f706"
+                }
+              ],
+              "name" : "Hyperlink",
+              "size" : {
+                "width" : 290,
+                "height" : 24
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "fontFamily" : "System",
+              "autoresizingMask" : 42,
+              "fontSize" : 20,
+              "text" : "ABC Classic FM website",
+              "buttonStyle" : "custom",
+              "URLString" : "http:\/\/www.abc.net.au\/classic\/program\/evenings\/"
+            },
+            {
+              "layoutMode" : "autoFitHeight",
+              "position" : {
+                "top" : 105,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 105
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 78
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabel5b649ace67454ad5a6804775899c9bb8",
+              "textColor" : "rgba(254,255,255,1.00)",
+              "$domain" : "appDoo.iOS",
+              "heightIsEditable" : false,
+              "transform" : "",
+              "textAlignment" : "center",
+              "userInteractionEnabled" : true,
+              "name" : "Beschriftung",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "MoviePlayerView070eadcf44f247868dd125f899550bf5",
+                  "offset" : 30,
+                  "type" : "below",
+                  "$id" : "Object0694cf1d0ca347ecacece9f78f12c330"
+                }
+              ],
+              "size" : {
+                "width" : 290,
+                "height" : 78
+              },
+              "alpha" : 1,
+              "fontSize" : 20,
+              "autoresizingMask" : 42,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "The world's most beautiful music, from familiar classics to new discoveries.",
+              "numberOfLines" : 0
+            },
+            {
+              "position" : {
+                "top" : 36,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 36
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 39
+                }
+              },
+              "$type" : "MoviePlayerView",
+              "backgroundPlayback" : true,
+              "hidden" : false,
+              "$id" : "MoviePlayerView070eadcf44f247868dd125f899550bf5",
+              "movieURLString" : "http:\/\/www.abc.net.au\/res\/streaming\/audio\/aac\/classic_fm.pls",
+              "$domain" : "info.appdoo-mac",
+              "backgroundColor" : "rgba(72,63,77,1.00)",
+              "heightIsEditable" : true,
+              "repeat" : false,
+              "sourceType" : "remote",
+              "dataProvider" : {
+                "$type" : "MoviePlayerDataProvider",
+                "URLRequest" : {
+                  "$type" : "URLRequest",
+                  "$domain" : "Core"
+                },
+                "$id" : "MoviePlayerDataProvider9aa4d17156154e80b3f6e5467ed492e5",
+                "actionInfo" : {
+                  "type" : "objectAction",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "objectAction",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "propertiesForBindings" : [
+                  "currentPlaybackTime",
+                  "currentPlaybackTimeString",
+                  "remainingPlaybackTimeString",
+                  "currentPlaybackProgress",
+                  "isPlaying",
+                  "isNotPlaying"
+                ],
+                "$domain" : "info.appdoo-mac",
+                "name" : "Medienwiedergabe",
+                "objectID" : "MoviePlayerView070eadcf44f247868dd125f899550bf5"
+              },
+              "transform" : "",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectangle94e9a00124a0400eb5bb8ea848d0ca77",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Objectef50408a76634a9da6694c85b72eec31"
+                }
+              ],
+              "showsControls" : true,
+              "userInteractionEnabled" : true,
+              "size" : {
+                "width" : 320,
+                "height" : 39
+              },
+              "alpha" : 1,
+              "autoresizingMask" : 42,
+              "autoplay" : true
+            },
+            {
+              "$id" : "DrawableRectangle94e9a00124a0400eb5bb8ea848d0ca77",
+              "borderColor" : "rgba(173,44,172,1.00)",
+              "position" : {
+                "top" : 31,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 31
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 5
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 47,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabel14e7d27ef3b84a19b9a0178e52e93745",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Object417809e397264d2ca7d640addc7cbae3"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 5
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(173,44,172,1.00)",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE bottom",
+              "$type" : "DrawableRectangle"
+            },
+            {
+              "layoutMode" : "singleLine",
+              "position" : {
+                "top" : 5,
+                "left" : 0
+              },
+              "fontName" : "_DEFAULT_BOLD_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 5
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 26
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabel14e7d27ef3b84a19b9a0178e52e93745",
+              "textColor" : "rgba(254,255,255,1.00)",
+              "$domain" : "appDoo.iOS",
+              "backgroundColor" : "rgba(173,44,172,1.00)",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "textAlignment" : "center",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectangle24c9e89e1674401986a19f6733e47856",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Objecta93ab4d7ea2d4e51a1a3544dbd8e3dc8"
+                }
+              ],
+              "size" : {
+                "width" : 320,
+                "height" : 26
+              },
+              "alpha" : 1,
+              "fontSize" : 20,
+              "autoresizingMask" : 34,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "LIVE",
+              "numberOfLines" : 1
+            },
+            {
+              "$id" : "DrawableRectangle24c9e89e1674401986a19f6733e47856",
+              "borderColor" : "rgba(173,44,172,1.00)",
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 5
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 39,
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 5
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(173,44,172,1.00)",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE top",
+              "$type" : "DrawableRectangle"
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 504
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "$type" : "SceneRootView"
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appDoo.iOS"
+      },
+      "$id" : "Scenec9527f099777452a81b2bf756f140383",
+      "v_separateStatusBar" : false,
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "$domain" : "appDoo.iOS",
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "hasCustomInterfaceOrientations" : false,
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      }
+    },
+    {
+      "$type" : "Scene",
+      "navigationBar" : {
+        "isExpandedInEditorOutline" : true,
+        "$id" : "UINavigationBar4db9bd22b3c7448bb3be570a901b19d6",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appDoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "ABC Jazz",
+        "tintColor" : "rgba(255,254,255,1.00)",
+        "transform" : "",
+        "heightIsEditable" : false,
+        "alpha" : 1,
+        "items" : [
+          {
+            "$id" : "UINavigationItem157fd58bbba9498c82e0510efbcdb627",
+            "rightBarButtonItems" : [
+              {
+                "$type" : "UIBarButtonItem",
+                "systemItem" : "stop",
+                "actionType" : "objectAction",
+                "$id" : "UIBarButtonItema275441916134f65b0d3f216a77b799e",
+                "title" : "×",
+                "tag" : 0,
+                "$domain" : "appDoo.iOS",
+                "actionInfo" : {
+                  "type" : "navigateBack",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "navigateBack",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "itemType" : "systemItem"
+              }
+            ],
+            "$type" : "UINavigationItem",
+            "$domain" : "appDoo.iOS"
+          }
+        ],
+        "barTintColor" : "rgba(0,0,0,1.00)",
+        "barStyle" : 1,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "userInteractionEnabled" : true,
+        "hidden" : false,
+        "$type" : "UINavigationBar"
+      },
+      "positionOnOverview" : {
+        "top" : 951,
+        "left" : -46
+      },
+      "viewController" : {
+        "$id" : "UIViewController85bc3256ed034563820dab02ba4a63a3",
+        "tabBarItem" : {
+          "$id" : "UITabBarItemeaa4ab665da24decb964668f29cd7299",
+          "title" : "ABC Jazz",
+          "$type" : "UITabBarItem",
+          "$domain" : "appDoo.iOS"
+        },
+        "title" : "ABC Jazz",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "scrollLeft" : 0,
+          "$id" : "SceneRootView5028f171affe4d67abc964c13e333d7c",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgba(72,63,77,1.00)",
+          "$domain" : "appDoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 504
+            }
+          },
+          "subviews" : [
+            {
+              "$id" : "DrawableEllipse030b6342c81e4785a4a3dcc4570281fd",
+              "borderColor" : "rgba(0,0,0,0.00)",
+              "position" : {
+                "top" : 284,
+                "left" : -43
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : -43,
+                  "y" : 284
+                },
+                "size" : {
+                  "width" : 400,
+                  "height" : 400
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 44,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableEllipse15b2dfad067a4193bd150b597aadb51d",
+                  "offset" : -101,
+                  "type" : "below",
+                  "$id" : "Object4af32b7bc3974db8ba1c950e2a48a9e2"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 400,
+                "height" : 400
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(158,54,167,0.16)",
+              "userInteractionEnabled" : true,
+              "name" : "Circle 2",
+              "$type" : "DrawableEllipse"
+            },
+            {
+              "$id" : "DrawableEllipse15b2dfad067a4193bd150b597aadb51d",
+              "borderColor" : "rgba(0,0,0,0.00)",
+              "position" : {
+                "top" : 85,
+                "left" : 113
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 113,
+                  "y" : 85
+                },
+                "size" : {
+                  "width" : 300,
+                  "height" : 300
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 33,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "MoviePlayerView002b567f1e6d4295b51877eb5c941117",
+                  "offset" : 10,
+                  "type" : "below",
+                  "$id" : "Objectfdc85cefe35646758bbfdaa31aecc89a"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 300,
+                "height" : 300
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(158,54,167,0.16)",
+              "userInteractionEnabled" : true,
+              "name" : "Circle 1",
+              "$type" : "DrawableEllipse"
+            },
+            {
+              "CSSTextColor" : "rgba(95,200,156,1.00)",
+              "position" : {
+                "top" : 187,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "Hyperlink",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 187
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 24
+                }
+              },
+              "hyperlinkTarget" : "web",
+              "highlightedColor" : "rgba(94,199,155,1.00)",
+              "$id" : "Hyperlink80153cf747a84608bd8619089f78ef01",
+              "$domain" : "info.appdoo-mac",
+              "backgroundColor" : "rgb(255,255,255,0)",
+              "heightIsEditable" : true,
+              "inactiveColor" : "rgb(150,150,150)",
+              "hidden" : false,
+              "transform" : "",
+              "textAlignment" : "center",
+              "actionInfo" : {
+                "type" : "objectAction",
+                "modalTransitionStyle" : "-1",
+                "actionType" : "objectAction",
+                "objectActionID" : "",
+                "$type" : "ActionInfo",
+                "$domain" : "appDoo"
+              },
+              "userInteractionEnabled" : true,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabele9277dc5de424af0a66ef2f253c86c0c",
+                  "offset" : 30,
+                  "type" : "below",
+                  "$id" : "Objectad87aafd1c304ef494c6c6aa9c5b9556"
+                }
+              ],
+              "name" : "Hyperlink",
+              "size" : {
+                "width" : 290,
+                "height" : 24
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "fontFamily" : "System",
+              "autoresizingMask" : 42,
+              "fontSize" : 20,
+              "text" : "ABC Jazz website",
+              "buttonStyle" : "custom",
+              "URLString" : "http:\/\/www.abc.net.au\/jazz\/home-cooked\/"
+            },
+            {
+              "layoutMode" : "autoFitHeight",
+              "position" : {
+                "top" : 105,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 105
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 52
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabele9277dc5de424af0a66ef2f253c86c0c",
+              "textColor" : "rgba(254,255,255,1.00)",
+              "$domain" : "appDoo.iOS",
+              "heightIsEditable" : false,
+              "transform" : "",
+              "textAlignment" : "center",
+              "userInteractionEnabled" : true,
+              "name" : "Beschriftung",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "MoviePlayerView002b567f1e6d4295b51877eb5c941117",
+                  "offset" : 30,
+                  "type" : "below",
+                  "$id" : "Objectdea39efdc97842449e0d7fdafa2466fc"
+                }
+              ],
+              "size" : {
+                "width" : 290,
+                "height" : 52
+              },
+              "alpha" : 1,
+              "fontSize" : 20,
+              "autoresizingMask" : 42,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "The very best jazz from Australia and around the world.",
+              "numberOfLines" : 0
+            },
+            {
+              "position" : {
+                "top" : 36,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 36
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 39
+                }
+              },
+              "$type" : "MoviePlayerView",
+              "backgroundPlayback" : true,
+              "hidden" : false,
+              "$id" : "MoviePlayerView002b567f1e6d4295b51877eb5c941117",
+              "movieURLString" : "http:\/\/www.abc.net.au\/res\/streaming\/audio\/aac\/abc_jazz.pls",
+              "$domain" : "info.appdoo-mac",
+              "backgroundColor" : "rgba(72,63,77,1.00)",
+              "heightIsEditable" : true,
+              "repeat" : false,
+              "sourceType" : "remote",
+              "dataProvider" : {
+                "$type" : "MoviePlayerDataProvider",
+                "URLRequest" : {
+                  "$type" : "URLRequest",
+                  "$domain" : "Core"
+                },
+                "$id" : "MoviePlayerDataProvider0ca88788633c45f7bab32730ca0a1103",
+                "actionInfo" : {
+                  "type" : "objectAction",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "objectAction",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "propertiesForBindings" : [
+                  "currentPlaybackTime",
+                  "currentPlaybackTimeString",
+                  "remainingPlaybackTimeString",
+                  "currentPlaybackProgress",
+                  "isPlaying",
+                  "isNotPlaying"
+                ],
+                "$domain" : "info.appdoo-mac",
+                "name" : "Medienwiedergabe",
+                "objectID" : "MoviePlayerView002b567f1e6d4295b51877eb5c941117"
+              },
+              "transform" : "",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectangle2cc2617c895b46aebb5e9c67a47189f6",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Object294f28538c7f4fab9373a73d12761532"
+                }
+              ],
+              "showsControls" : true,
+              "userInteractionEnabled" : true,
+              "size" : {
+                "width" : 320,
+                "height" : 39
+              },
+              "alpha" : 1,
+              "autoresizingMask" : 42,
+              "autoplay" : true
+            },
+            {
+              "$id" : "DrawableRectangle2cc2617c895b46aebb5e9c67a47189f6",
+              "borderColor" : "rgba(173,44,172,1.00)",
+              "position" : {
+                "top" : 31,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 31
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 5
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 47,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabeld435df44b7774b73b476d55da935b264",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Object4cf8c0a81c254e79bd0ffbf8c09f8d77"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 5
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(173,44,172,1.00)",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE bottom",
+              "$type" : "DrawableRectangle"
+            },
+            {
+              "layoutMode" : "singleLine",
+              "position" : {
+                "top" : 5,
+                "left" : 0
+              },
+              "fontName" : "_DEFAULT_BOLD_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 5
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 26
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabeld435df44b7774b73b476d55da935b264",
+              "textColor" : "rgba(254,255,255,1.00)",
+              "$domain" : "appDoo.iOS",
+              "backgroundColor" : "rgba(173,44,172,1.00)",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "textAlignment" : "center",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectangle2f890ea2461d47c59e412e30634f21f0",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Object4c3719d6e3da460dbd9f74b22a85cf33"
+                }
+              ],
+              "size" : {
+                "width" : 320,
+                "height" : 26
+              },
+              "alpha" : 1,
+              "fontSize" : 20,
+              "autoresizingMask" : 34,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "LIVE",
+              "numberOfLines" : 1
+            },
+            {
+              "$id" : "DrawableRectangle2f890ea2461d47c59e412e30634f21f0",
+              "borderColor" : "rgba(173,44,172,1.00)",
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 5
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 39,
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 5
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(173,44,172,1.00)",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE top",
+              "$type" : "DrawableRectangle"
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 504
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "$type" : "SceneRootView"
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appDoo.iOS"
+      },
+      "$id" : "Scene8fd1999ca2c24ad985a35736b190ed08",
+      "v_separateStatusBar" : false,
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "$domain" : "appDoo.iOS",
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "hasCustomInterfaceOrientations" : false,
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      }
+    },
+    {
+      "$type" : "Scene",
+      "navigationBar" : {
+        "isExpandedInEditorOutline" : true,
+        "$id" : "UINavigationBar328029d2dbc74eff9e264e2a6cf82771",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appDoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "ABC Country",
+        "tintColor" : "rgba(255,254,255,1.00)",
+        "transform" : "",
+        "heightIsEditable" : false,
+        "alpha" : 1,
+        "items" : [
+          {
+            "$id" : "UINavigationItem7687d345c23747d58e42f7a4e5aa1a52",
+            "rightBarButtonItems" : [
+              {
+                "$type" : "UIBarButtonItem",
+                "systemItem" : "stop",
+                "actionType" : "objectAction",
+                "$id" : "UIBarButtonIteme333cd54d65c48d8b93d2c9aac4b4be0",
+                "title" : "×",
+                "tag" : 0,
+                "$domain" : "appDoo.iOS",
+                "actionInfo" : {
+                  "type" : "navigateBack",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "navigateBack",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "itemType" : "systemItem"
+              }
+            ],
+            "$type" : "UINavigationItem",
+            "$domain" : "appDoo.iOS"
+          }
+        ],
+        "barTintColor" : "rgba(0,0,0,1.00)",
+        "barStyle" : 1,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "userInteractionEnabled" : true,
+        "hidden" : false,
+        "$type" : "UINavigationBar"
+      },
+      "positionOnOverview" : {
+        "top" : 951,
+        "left" : 311
+      },
+      "viewController" : {
+        "$id" : "UIViewControllera6f0ad679aed49d4834d1cc890724747",
+        "tabBarItem" : {
+          "$id" : "UITabBarItemb5faffac49cc414bb51271032d244ab4",
+          "title" : "ABC Country",
+          "$type" : "UITabBarItem",
+          "$domain" : "appDoo.iOS"
+        },
+        "title" : "ABC Country",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "scrollLeft" : 0,
+          "$id" : "SceneRootViewf83a5653ae6a45c0b4f976262aedaeaa",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgba(72,63,77,1.00)",
+          "$domain" : "appDoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 504
+            }
+          },
+          "subviews" : [
+            {
+              "$id" : "DrawableEllipse23c092c11188440989e0ea828c706b00",
+              "borderColor" : "rgba(0,0,0,0.00)",
+              "position" : {
+                "top" : 284,
+                "left" : -43
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : -43,
+                  "y" : 284
+                },
+                "size" : {
+                  "width" : 400,
+                  "height" : 400
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 44,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableEllipse0c236190cf19423cb89eb7ddcdfe05f3",
+                  "offset" : -101,
+                  "type" : "below",
+                  "$id" : "Objectda7854633f9f4dd1912cdf5bbeaabf8c"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 400,
+                "height" : 400
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(158,54,167,0.16)",
+              "userInteractionEnabled" : true,
+              "name" : "Circle 2",
+              "$type" : "DrawableEllipse"
+            },
+            {
+              "$id" : "DrawableEllipse0c236190cf19423cb89eb7ddcdfe05f3",
+              "borderColor" : "rgba(0,0,0,0.00)",
+              "position" : {
+                "top" : 85,
+                "left" : 113
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 113,
+                  "y" : 85
+                },
+                "size" : {
+                  "width" : 300,
+                  "height" : 300
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 33,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "MoviePlayerView2a0836e852b9481c8039eeb00a289deb",
+                  "offset" : 10,
+                  "type" : "below",
+                  "$id" : "Object49960f78df204ea69a49d31ff77541f6"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 300,
+                "height" : 300
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(158,54,167,0.16)",
+              "userInteractionEnabled" : true,
+              "name" : "Circle 1",
+              "$type" : "DrawableEllipse"
+            },
+            {
+              "CSSTextColor" : "rgba(95,200,156,1.00)",
+              "position" : {
+                "top" : 187,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "Hyperlink",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 187
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 24
+                }
+              },
+              "hyperlinkTarget" : "web",
+              "highlightedColor" : "rgba(94,199,155,1.00)",
+              "$id" : "Hyperlink10d8c8d44e0d472387dcf05e012771cf",
+              "$domain" : "info.appdoo-mac",
+              "backgroundColor" : "rgb(255,255,255,0)",
+              "heightIsEditable" : true,
+              "inactiveColor" : "rgb(150,150,150)",
+              "hidden" : false,
+              "transform" : "",
+              "textAlignment" : "center",
+              "actionInfo" : {
+                "type" : "objectAction",
+                "modalTransitionStyle" : "-1",
+                "actionType" : "objectAction",
+                "objectActionID" : "",
+                "$type" : "ActionInfo",
+                "$domain" : "appDoo"
+              },
+              "userInteractionEnabled" : true,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabel7de400299939431aaa4a1be4883f6c54",
+                  "offset" : 30,
+                  "type" : "below",
+                  "$id" : "Object42899edf397044be9e2c0bfc8f8c8518"
+                }
+              ],
+              "name" : "Hyperlink",
+              "size" : {
+                "width" : 290,
+                "height" : 24
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "fontFamily" : "System",
+              "autoresizingMask" : 42,
+              "fontSize" : 20,
+              "text" : "ABC Country website",
+              "buttonStyle" : "custom",
+              "URLString" : "http:\/\/www.abc.net.au\/country"
+            },
+            {
+              "layoutMode" : "autoFitHeight",
+              "position" : {
+                "top" : 105,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 105
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 52
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabel7de400299939431aaa4a1be4883f6c54",
+              "textColor" : "rgba(254,255,255,1.00)",
+              "$domain" : "appDoo.iOS",
+              "heightIsEditable" : false,
+              "transform" : "",
+              "textAlignment" : "center",
+              "userInteractionEnabled" : true,
+              "name" : "Beschriftung",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "MoviePlayerView2a0836e852b9481c8039eeb00a289deb",
+                  "offset" : 30,
+                  "type" : "below",
+                  "$id" : "Object81029315743d4944ae695f028290f57f"
+                }
+              ],
+              "size" : {
+                "width" : 290,
+                "height" : 52
+              },
+              "alpha" : 1,
+              "fontSize" : 20,
+              "autoresizingMask" : 42,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "Australia's home of country music.",
+              "numberOfLines" : 0
+            },
+            {
+              "position" : {
+                "top" : 36,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 36
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 39
+                }
+              },
+              "$type" : "MoviePlayerView",
+              "backgroundPlayback" : true,
+              "hidden" : false,
+              "$id" : "MoviePlayerView2a0836e852b9481c8039eeb00a289deb",
+              "movieURLString" : "http:\/\/www.abc.net.au\/res\/streaming\/audio\/aac\/abc_country.pls",
+              "$domain" : "info.appdoo-mac",
+              "backgroundColor" : "rgba(72,63,77,1.00)",
+              "heightIsEditable" : true,
+              "repeat" : false,
+              "sourceType" : "remote",
+              "dataProvider" : {
+                "$type" : "MoviePlayerDataProvider",
+                "URLRequest" : {
+                  "$type" : "URLRequest",
+                  "$domain" : "Core"
+                },
+                "$id" : "MoviePlayerDataProvider6fe8f8e0e5e24efdb2ba4e4acdf70b88",
+                "actionInfo" : {
+                  "type" : "objectAction",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "objectAction",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "propertiesForBindings" : [
+                  "currentPlaybackTime",
+                  "currentPlaybackTimeString",
+                  "remainingPlaybackTimeString",
+                  "currentPlaybackProgress",
+                  "isPlaying",
+                  "isNotPlaying"
+                ],
+                "$domain" : "info.appdoo-mac",
+                "name" : "Medienwiedergabe",
+                "objectID" : "MoviePlayerView2a0836e852b9481c8039eeb00a289deb"
+              },
+              "transform" : "",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectangle1a08f78cbfdc463c932e8ebaba90ea9d",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Object7468306a1f474e44a976fb8d7f6ec5de"
+                }
+              ],
+              "showsControls" : true,
+              "userInteractionEnabled" : true,
+              "size" : {
+                "width" : 320,
+                "height" : 39
+              },
+              "alpha" : 1,
+              "autoresizingMask" : 42,
+              "autoplay" : true
+            },
+            {
+              "$id" : "DrawableRectangle1a08f78cbfdc463c932e8ebaba90ea9d",
+              "borderColor" : "rgba(173,44,172,1.00)",
+              "position" : {
+                "top" : 31,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 31
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 5
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 47,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabel21ff927e5dc74116aeb50743ce7d3762",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Objecte5b6d49ed87642fda8659a76da93be7a"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 5
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(173,44,172,1.00)",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE bottom",
+              "$type" : "DrawableRectangle"
+            },
+            {
+              "layoutMode" : "singleLine",
+              "position" : {
+                "top" : 5,
+                "left" : 0
+              },
+              "fontName" : "_DEFAULT_BOLD_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 5
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 26
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabel21ff927e5dc74116aeb50743ce7d3762",
+              "textColor" : "rgba(254,255,255,1.00)",
+              "$domain" : "appDoo.iOS",
+              "backgroundColor" : "rgba(173,44,172,1.00)",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "textAlignment" : "center",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectangleac3f0bf5d93940088dca8c944e468e8a",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Objectb36b3b417cf6466b825d639cf75475cb"
+                }
+              ],
+              "size" : {
+                "width" : 320,
+                "height" : 26
+              },
+              "alpha" : 1,
+              "fontSize" : 20,
+              "autoresizingMask" : 34,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "LIVE",
+              "numberOfLines" : 1
+            },
+            {
+              "$id" : "DrawableRectangleac3f0bf5d93940088dca8c944e468e8a",
+              "borderColor" : "rgba(173,44,172,1.00)",
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 5
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 39,
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 5
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(173,44,172,1.00)",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE top",
+              "$type" : "DrawableRectangle"
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 504
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "$type" : "SceneRootView"
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appDoo.iOS"
+      },
+      "$id" : "Scene9e229945a1c04e1ebc7f31701ef9fd1a",
+      "v_separateStatusBar" : false,
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "$domain" : "appDoo.iOS",
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "hasCustomInterfaceOrientations" : false,
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      }
+    },
+    {
+      "$type" : "Scene",
+      "navigationBar" : {
+        "isExpandedInEditorOutline" : true,
+        "$id" : "UINavigationBar07a7ab1662a64ac78db482bd8e14b232",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appDoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "ABC KIDS listen",
+        "tintColor" : "rgba(255,254,255,1.00)",
+        "transform" : "",
+        "heightIsEditable" : false,
+        "alpha" : 1,
+        "items" : [
+          {
+            "$id" : "UINavigationItemb42010916c564ae8afeb8407f08e6374",
+            "rightBarButtonItems" : [
+              {
+                "$type" : "UIBarButtonItem",
+                "systemItem" : "stop",
+                "actionType" : "objectAction",
+                "$id" : "UIBarButtonItemc330e9802af74b6a8ad57b59c9b7bb0a",
+                "title" : "×",
+                "tag" : 0,
+                "$domain" : "appDoo.iOS",
+                "actionInfo" : {
+                  "type" : "navigateBack",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "navigateBack",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "itemType" : "systemItem"
+              }
+            ],
+            "$type" : "UINavigationItem",
+            "$domain" : "appDoo.iOS"
+          }
+        ],
+        "barTintColor" : "rgba(0,0,0,1.00)",
+        "barStyle" : 1,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "userInteractionEnabled" : true,
+        "hidden" : false,
+        "$type" : "UINavigationBar"
+      },
+      "positionOnOverview" : {
+        "top" : 951,
+        "left" : 663
+      },
+      "viewController" : {
+        "$id" : "UIViewController643e33506485464384161f061a798f2d",
+        "tabBarItem" : {
+          "$id" : "UITabBarItemd20c1f514ce14c76b523594ab14592d3",
+          "title" : "ABC KIDS listen",
+          "$type" : "UITabBarItem",
+          "$domain" : "appDoo.iOS"
+        },
+        "title" : "ABC KIDS listen",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "scrollLeft" : 0,
+          "$id" : "SceneRootViewd4055189d2e54d0c94ccadc7e5856a0c",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgba(72,63,77,1.00)",
+          "$domain" : "appDoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 504
+            }
+          },
+          "subviews" : [
+            {
+              "$id" : "DrawableEllipse3289be2272cf43b0bdbbdf5090ea6bcb",
+              "borderColor" : "rgba(0,0,0,0.00)",
+              "position" : {
+                "top" : 284,
+                "left" : -43
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : -43,
+                  "y" : 284
+                },
+                "size" : {
+                  "width" : 400,
+                  "height" : 400
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 44,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableEllipse11745ccb1c0f47f5b2111097a7891644",
+                  "offset" : -101,
+                  "type" : "below",
+                  "$id" : "Object38604e703ab94575ada5b10290680eee"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 400,
+                "height" : 400
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(158,54,167,0.16)",
+              "userInteractionEnabled" : true,
+              "name" : "Circle 2",
+              "$type" : "DrawableEllipse"
+            },
+            {
+              "$id" : "DrawableEllipse11745ccb1c0f47f5b2111097a7891644",
+              "borderColor" : "rgba(0,0,0,0.00)",
+              "position" : {
+                "top" : 85,
+                "left" : 113
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 113,
+                  "y" : 85
+                },
+                "size" : {
+                  "width" : 300,
+                  "height" : 300
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 33,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "MoviePlayerView5d0d870c1d2348ad8253706afb3ed4fd",
+                  "offset" : 10,
+                  "type" : "below",
+                  "$id" : "Objecte529f5a5f1b84f39a3efe30a0f044b8c"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 300,
+                "height" : 300
+              },
+              "heightIsEditable" : true,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(158,54,167,0.16)",
+              "userInteractionEnabled" : true,
+              "name" : "Circle 1",
+              "$type" : "DrawableEllipse"
+            },
+            {
+              "layoutMode" : "autoFitHeight",
+              "position" : {
+                "top" : 105,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 105
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 52
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabel149ff5123de140d0a905a74ca79303e0",
+              "textColor" : "rgba(254,255,255,1.00)",
+              "$domain" : "appDoo.iOS",
+              "heightIsEditable" : false,
+              "transform" : "",
+              "textAlignment" : "center",
+              "userInteractionEnabled" : true,
+              "name" : "Beschriftung",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "MoviePlayerView5d0d870c1d2348ad8253706afb3ed4fd",
+                  "offset" : 30,
+                  "type" : "below",
+                  "$id" : "Objectc54743654c9642cf82722c200b5c337d"
+                }
+              ],
+              "size" : {
+                "width" : 290,
+                "height" : 52
+              },
+              "alpha" : 1,
+              "fontSize" : 20,
+              "autoresizingMask" : 42,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "Radio for children and families - Learn, play and sing along.",
+              "numberOfLines" : 0
+            },
+            {
+              "position" : {
+                "top" : 36,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 36
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 39
+                }
+              },
+              "$type" : "MoviePlayerView",
+              "backgroundPlayback" : true,
+              "hidden" : false,
+              "$id" : "MoviePlayerView5d0d870c1d2348ad8253706afb3ed4fd",
+              "movieURLString" : "http:\/\/www.abc.net.au\/res\/streaming\/audio\/aac\/extra.pls",
+              "$domain" : "info.appdoo-mac",
+              "backgroundColor" : "rgba(72,63,77,1.00)",
+              "heightIsEditable" : true,
+              "repeat" : false,
+              "sourceType" : "remote",
+              "dataProvider" : {
+                "$type" : "MoviePlayerDataProvider",
+                "URLRequest" : {
+                  "$type" : "URLRequest",
+                  "$domain" : "Core"
+                },
+                "$id" : "MoviePlayerDataProviderb207f15455f64ab1bd9357d41b6ac168",
+                "actionInfo" : {
+                  "type" : "objectAction",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "objectAction",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appDoo"
+                },
+                "propertiesForBindings" : [
+                  "currentPlaybackTime",
+                  "currentPlaybackTimeString",
+                  "remainingPlaybackTimeString",
+                  "currentPlaybackProgress",
+                  "isPlaying",
+                  "isNotPlaying"
+                ],
+                "$domain" : "info.appdoo-mac",
+                "name" : "Medienwiedergabe",
+                "objectID" : "MoviePlayerView5d0d870c1d2348ad8253706afb3ed4fd"
+              },
+              "transform" : "",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglefaa3e8ef8b9c4febb0f4832ef1fd59ec",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Object05947d91e3894b91ac9a0819c25c85ce"
+                }
+              ],
+              "showsControls" : true,
+              "userInteractionEnabled" : true,
+              "size" : {
+                "width" : 320,
+                "height" : 39
+              },
+              "alpha" : 1,
+              "autoresizingMask" : 42,
+              "autoplay" : true
+            },
+            {
+              "$id" : "DrawableRectanglefaa3e8ef8b9c4febb0f4832ef1fd59ec",
+              "borderColor" : "rgba(173,44,172,1.00)",
+              "position" : {
+                "top" : 31,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 31
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 5
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 47,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabelc5ad9fbf92894ddeb2f4666e06f858cd",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Object400cdcf19bd64586b8d5bead3d9315e0"
+                }
+              ],
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 5
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(173,44,172,1.00)",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE bottom",
+              "$type" : "DrawableRectangle"
+            },
+            {
+              "layoutMode" : "singleLine",
+              "position" : {
+                "top" : 5,
+                "left" : 0
+              },
+              "fontName" : "_DEFAULT_BOLD_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 5
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 26
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabelc5ad9fbf92894ddeb2f4666e06f858cd",
+              "textColor" : "rgba(254,255,255,1.00)",
+              "$domain" : "appDoo.iOS",
+              "backgroundColor" : "rgba(173,44,172,1.00)",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "textAlignment" : "center",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "DrawableRectanglee8efada242fe495ba80799f158708b93",
+                  "offset" : 0,
+                  "type" : "below",
+                  "$id" : "Objectda39f410ae314dd4a8101ec4731ee098"
+                }
+              ],
+              "size" : {
+                "width" : 320,
+                "height" : 26
+              },
+              "alpha" : 1,
+              "fontSize" : 20,
+              "autoresizingMask" : 34,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "LIVE",
+              "numberOfLines" : 1
+            },
+            {
+              "$id" : "DrawableRectanglee8efada242fe495ba80799f158708b93",
+              "borderColor" : "rgba(173,44,172,1.00)",
+              "position" : {
+                "top" : 0,
+                "left" : 0
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 0,
+                  "y" : 0
+                },
+                "size" : {
+                  "width" : 320,
+                  "height" : 5
+                }
+              },
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 39,
+              "transform" : "",
+              "size" : {
+                "width" : 320,
+                "height" : 5
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(173,44,172,1.00)",
+              "userInteractionEnabled" : true,
+              "name" : "LIVE top",
+              "$type" : "DrawableRectangle"
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 504
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "$type" : "SceneRootView"
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appDoo.iOS"
+      },
+      "$id" : "Scene84c238cfc5814e9cbe276b07233ab014",
+      "v_separateStatusBar" : false,
+      "navigationObjectsNodeIsExpandedInEditorOutline" : true,
+      "$domain" : "appDoo.iOS",
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "hasCustomInterfaceOrientations" : false,
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      }
+    }
+  ],
+  "tabBarItemFont" : {
+    "$id" : "UIFont10031",
+    "fontFamily" : "System",
+    "fontName" : "_DEFAULT_",
+    "pointSize" : 10,
+    "$type" : "UIFont",
+    "$domain" : "appDoo.iOS"
+  },
+  "navigationBarFont" : {
+    "$id" : "UIFont10029",
+    "fontFamily" : "System",
+    "fontName" : "_DEFAULT_BOLD_",
+    "pointSize" : 17,
+    "$type" : "UIFont",
+    "$domain" : "appDoo.iOS"
+  },
+  "$domain" : "appDoo",
+  "metadata" : {
+    "launchImages" : {
+      "phone72" : {
+        "$type" : "ImageReference",
+        "$domain" : "appDoo",
+        "imageID" : "CB3A12D9-A297-46CA-B207-41A26B487C61-1912-00000D604437969B.png"
+      },
+      "phoneX" : {
+        "$type" : "ImageReference",
+        "$domain" : "appDoo",
+        "imageID" : "D678FFBA-A9D4-4DBE-B6A5-81B3519F53AC-1912-00000D64EDA8E380.png"
+      },
+      "phone71" : {
+        "$type" : "ImageReference",
+        "$domain" : "appDoo",
+        "imageID" : "32CCC46E-6FAC-4CEC-9F15-675F3530CE06-1912-00000D61D64733A1.png"
+      },
+      "phone40" : {
+        "$type" : "ImageReference",
+        "$domain" : "appDoo",
+        "imageID" : "65032ACE-DB6B-498C-B4EF-E6CED9C40DB7-1912-00000D5F0FD6CC00.png"
+      }
+    },
+    "iconImage" : {
+      "$type" : "ImageReference",
+      "$domain" : "appDoo",
+      "imageID" : "977549E2-9728-484E-B86E-85F74D88984E-1912-00000EACF5BDA021.png"
+    },
+    "editorAppearance" : {
+      "fileReferencesNodeIsExpandedInEditorOutline" : true,
+      "inspectorCurrentSegment" : 0,
+      "collapsedNewItemSections" : [
+
+      ],
+      "contentScale" : 1,
+      "historyStack" : [
+        "Screen2",
+        "Screen1",
+        "Screen3",
+        "Screen1",
+        "Scene6bae25df54b647e2bbe063ca2607cd6c",
+        "Screen1",
+        "Scene6bae25df54b647e2bbe063ca2607cd6c",
+        "Screen1",
+        "Scene6bae25df54b647e2bbe063ca2607cd6c",
+        "Screen1",
+        "Scene6bae25df54b647e2bbe063ca2607cd6c",
+        "Screen1",
+        "Scene6bae25df54b647e2bbe063ca2607cd6c",
+        "Screen1",
+        "Scene6bae25df54b647e2bbe063ca2607cd6c",
+        "Screen1",
+        "Scene6bae25df54b647e2bbe063ca2607cd6c",
+        "Screen1",
+        "Scene6bae25df54b647e2bbe063ca2607cd6c",
+        "Screen1",
+        "Scene6bae25df54b647e2bbe063ca2607cd6c",
+        "Screen1",
+        "Scene6bae25df54b647e2bbe063ca2607cd6c",
+        "Screen1",
+        "Scene6bae25df54b647e2bbe063ca2607cd6c",
+        "Scenebdee0a5897014517ab2c7de2ca428b32",
+        "Scene6bae25df54b647e2bbe063ca2607cd6c",
+        "Screen1",
+        "Scenee3a95002413a44938e2d188c849d131f",
+        "Screen1",
+        "Scene9296114ba0564b5596fa3410ffb95621",
+        "Screen1",
+        "Scene01806fa6b7894296a9e0049cbce27d72",
+        "Scenec9527f099777452a81b2bf756f140383",
+        "Screen1",
+        "Scene8fd1999ca2c24ad985a35736b190ed08",
+        "Screen1",
+        "Scene9e229945a1c04e1ebc7f31701ef9fd1a",
+        "Scene84c238cfc5814e9cbe276b07233ab014",
+        "Screen1"
+      ],
+      "inspectorCollapsedGroups" : [
+        "UILabelShadow",
+        "UIScrollViewInsets",
+        "UITableViewMargin",
+        "UITableViewSeparatorInsets",
+        "FormProcessorEvents",
+        "FormProcessorAdvanced"
+      ],
+      "heightOfNewItemsList" : 647,
+      "inspectorIsVisible" : true,
+      "elementListIsVisible" : true,
+      "globalObjectsNodeIsExpandedInEditorOutline" : true,
+      "historyStackPosition" : 39
+    },
+    "hidesStatusBarOnLaunch" : 0,
+    "editorVersion" : 105,
+    "title" : "Radio",
+    "formatVersion" : 105,
+    "lastObjectID" : 10041,
+    "simulatedSystemVersion" : 7,
+    "supportedInterfaceOrientations" : 6,
+    "description" : "Tabbed App (iPhone)",
+    "deviceProfile" : "iPhone-Widescreen",
+    "appleAppBundlePrefix" : "",
+    "version" : "1.0",
+    "defaultLanguage" : "en",
+    "targetedDeviceFamily" : "iPhone",
+    "appleAppCategory" : "",
+    "requiresBackgroundAudioPlayback" : true,
+    "editedObject" : "Screen1",
+    "projectID" : "B9418B00-ED08-4189-8056-1207672F5684-7263-000008D8DD3D6D3E",
+    "companyName" : "appsoluteGmbh",
+    "windowFrame" : "285 91 960 640 0 0 1440 878 ",
+    "windowIsFullScreen" : false,
+    "rootInstance" : "TabBarController",
+    "overviewAppearance" : {
+      "contentScale" : 0.33000000000000002
+    }
+  },
+  "barButtonItemFont" : {
+    "$id" : "UIFontebb2a888911a4f0f9ca9a1298edb949a",
+    "fontFamily" : "System",
+    "fontName" : "_DEFAULT_",
+    "pointSize" : 17,
+    "$type" : "UIFont",
+    "$domain" : "appDoo.iOS"
+  }
+}
