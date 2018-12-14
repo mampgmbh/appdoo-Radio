@@ -220,7 +220,7 @@
               "heightIsEditable" : true,
               "alpha" : 1,
               "hidden" : false,
-              "fillColor" : "rgba(122,198,160,0.10)",
+              "fillColor" : "rgba(158,54,167,0.16)",
               "userInteractionEnabled" : true,
               "name" : "Circle 4",
               "$type" : "DrawableEllipse"
@@ -261,7 +261,7 @@
               "heightIsEditable" : true,
               "alpha" : 1,
               "hidden" : false,
-              "fillColor" : "rgba(122,198,160,0.10)",
+              "fillColor" : "rgba(158,54,167,0.16)",
               "userInteractionEnabled" : true,
               "name" : "Circle 3",
               "$type" : "DrawableEllipse"
@@ -302,7 +302,7 @@
               "heightIsEditable" : true,
               "alpha" : 1,
               "hidden" : false,
-              "fillColor" : "rgba(122,198,160,0.10)",
+              "fillColor" : "rgba(158,54,167,0.16)",
               "userInteractionEnabled" : true,
               "name" : "Circle 2",
               "$type" : "DrawableEllipse"
@@ -334,13 +334,13 @@
               "heightIsEditable" : true,
               "alpha" : 1,
               "hidden" : false,
-              "fillColor" : "rgba(122,198,160,0.10)",
+              "fillColor" : "rgba(158,54,167,0.16)",
               "userInteractionEnabled" : true,
               "name" : "Circle 1",
               "$type" : "DrawableEllipse"
             },
             {
-              "CSSTextColor" : "rgba(72,62,77,1.00)",
+              "CSSTextColor" : "rgba(255,255,255,1.00)",
               "position" : {
                 "top" : 385,
                 "left" : 173
@@ -360,7 +360,7 @@
               "hidden" : false,
               "$id" : "UIButton441fd2530ecd404fa3590ca54989e47a",
               "$domain" : "appDoo.iOS",
-              "backgroundColor" : "rgba(95,200,156,1.00)",
+              "backgroundColor" : "rgba(173,44,172,0.33)",
               "heightIsEditable" : true,
               "transform" : "",
               "actionType" : "objectAction",
@@ -403,7 +403,7 @@
               "text" : "RN"
             },
             {
-              "CSSTextColor" : "rgba(72,63,77,1.00)",
+              "CSSTextColor" : "rgba(255,255,255,1.00)",
               "position" : {
                 "top" : 385,
                 "left" : 23
@@ -423,7 +423,7 @@
               "hidden" : false,
               "$id" : "UIButtonab2a695155c0418db91ce9684a77c74f",
               "$domain" : "appDoo.iOS",
-              "backgroundColor" : "rgba(95,200,156,1.00)",
+              "backgroundColor" : "rgba(173,44,172,0.33)",
               "heightIsEditable" : true,
               "transform" : "",
               "actionType" : "objectAction",
@@ -466,7 +466,7 @@
               "text" : "Country"
             },
             {
-              "CSSTextColor" : "rgba(72,62,77,1.00)",
+              "CSSTextColor" : "rgba(255,255,255,1.00)",
               "position" : {
                 "top" : 265,
                 "left" : 173
@@ -486,7 +486,7 @@
               "hidden" : false,
               "$id" : "UIButton673e655c0ea943c68439cfb944aa5d64",
               "$domain" : "appDoo.iOS",
-              "backgroundColor" : "rgba(95,200,156,1.00)",
+              "backgroundColor" : "rgba(173,44,172,0.33)",
               "heightIsEditable" : true,
               "transform" : "",
               "actionType" : "objectAction",
@@ -529,7 +529,7 @@
               "text" : "Jazz"
             },
             {
-              "CSSTextColor" : "rgba(72,63,77,1.00)",
+              "CSSTextColor" : "rgba(255,255,255,1.00)",
               "position" : {
                 "top" : 265,
                 "left" : 23
@@ -549,7 +549,7 @@
               "hidden" : false,
               "$id" : "UIButton7e36dae3b3c94ac0b6a616f048e52808",
               "$domain" : "appDoo.iOS",
-              "backgroundColor" : "rgba(95,200,156,1.00)",
+              "backgroundColor" : "rgba(173,44,172,0.33)",
               "heightIsEditable" : true,
               "transform" : "",
               "actionType" : "objectAction",
@@ -592,7 +592,7 @@
               "text" : "CLASSIC"
             },
             {
-              "CSSTextColor" : "rgba(72,62,77,1.00)",
+              "CSSTextColor" : "rgba(255,255,255,1.00)",
               "position" : {
                 "top" : 145,
                 "left" : 173
@@ -612,7 +612,7 @@
               "hidden" : false,
               "$id" : "UIButton3ba4e6d550bf4f5f8d86ccddd3193586",
               "$domain" : "appDoo.iOS",
-              "backgroundColor" : "rgba(95,200,156,1.00)",
+              "backgroundColor" : "rgba(173,44,172,0.33)",
               "heightIsEditable" : true,
               "transform" : "",
               "actionType" : "objectAction",
@@ -655,7 +655,7 @@
               "text" : "Double J"
             },
             {
-              "CSSTextColor" : "rgba(72,63,77,1.00)",
+              "CSSTextColor" : "rgba(255,255,255,1.00)",
               "position" : {
                 "top" : 145,
                 "left" : 23
@@ -675,7 +675,7 @@
               "hidden" : false,
               "$id" : "UIButtona3a2f856a3b347b49e6ee6038f2d9b67",
               "$domain" : "appDoo.iOS",
-              "backgroundColor" : "rgba(95,200,156,1.00)",
+              "backgroundColor" : "rgba(173,44,172,0.33)",
               "heightIsEditable" : true,
               "transform" : "",
               "actionType" : "objectAction",
@@ -718,7 +718,7 @@
               "text" : "triple j"
             },
             {
-              "CSSTextColor" : "rgba(73,63,77,1.00)",
+              "CSSTextColor" : "rgba(255,255,255,1.00)",
               "position" : {
                 "top" : 25,
                 "left" : 173
@@ -738,7 +738,7 @@
               "hidden" : false,
               "$id" : "UIButton30f8c21c7e4749b693397682be9eb539",
               "$domain" : "appDoo.iOS",
-              "backgroundColor" : "rgba(95,200,156,1.00)",
+              "backgroundColor" : "rgba(173,44,172,0.33)",
               "heightIsEditable" : true,
               "transform" : "",
               "actionType" : "objectAction",
@@ -781,7 +781,7 @@
               "text" : "Grandstand"
             },
             {
-              "CSSTextColor" : "rgba(72,63,77,1.00)",
+              "CSSTextColor" : "rgba(255,255,255,1.00)",
               "position" : {
                 "top" : 25,
                 "left" : 23
@@ -801,7 +801,7 @@
               "hidden" : false,
               "$id" : "UIButtona176a1cf52d040a18dafe628384e7e32",
               "$domain" : "appDoo.iOS",
-              "backgroundColor" : "rgba(95,200,156,1.00)",
+              "backgroundColor" : "rgba(173,44,172,0.33)",
               "heightIsEditable" : true,
               "transform" : "",
               "actionType" : "objectAction",
@@ -2477,7 +2477,7 @@
         "$type" : "UINavigationBar"
       },
       "selectedObjectIDs" : [
-        "UINavigationBarb1fe85543ff84cbda64f611300d1013f"
+        "UILabeld04807b0f4ca47a1a350fd19e125dc52"
       ],
       "$type" : "Scene"
     },
@@ -5047,7 +5047,7 @@
         "$type" : "UINavigationBar"
       },
       "selectedObjectIDs" : [
-        "UINavigationBar07a7ab1662a64ac78db482bd8e14b232"
+        "SceneRootViewd4055189d2e54d0c94ccadc7e5856a0c"
       ],
       "$type" : "Scene"
     }
@@ -5306,7 +5306,12 @@
         "Scenec9527f099777452a81b2bf756f140383",
         "Scene8fd1999ca2c24ad985a35736b190ed08",
         "Scene9e229945a1c04e1ebc7f31701ef9fd1a",
-        "Scene84c238cfc5814e9cbe276b07233ab014"
+        "Scene84c238cfc5814e9cbe276b07233ab014",
+        "Screen1",
+        "Scenee3a95002413a44938e2d188c849d131f",
+        "Screen1",
+        "Scenee3a95002413a44938e2d188c849d131f",
+        "Screen1"
       ],
       "inspectorCollapsedGroups" : [
         "UILabelShadow",
@@ -5320,7 +5325,7 @@
       "inspectorIsVisible" : true,
       "elementListIsVisible" : true,
       "globalObjectsNodeIsExpandedInEditorOutline" : true,
-      "historyStackPosition" : 201
+      "historyStackPosition" : 206
     },
     "hidesStatusBarOnLaunch" : 0,
     "editorVersion" : 105,
@@ -5337,7 +5342,7 @@
     "targetedDeviceFamily" : "iPhone",
     "appleAppCategory" : "",
     "requiresBackgroundAudioPlayback" : true,
-    "editedObject" : "Scene84c238cfc5814e9cbe276b07233ab014",
+    "editedObject" : "Screen1",
     "projectID" : "B9418B00-ED08-4189-8056-1207672F5684-7263-000008D8DD3D6D3E",
     "companyName" : "appsoluteGmbh",
     "windowFrame" : "285 91 960 640 0 0 1440 878 ",
