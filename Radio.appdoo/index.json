@@ -131,8 +131,8 @@
         "title" : "ABC Radio",
         "viewData" : {
           "isExpandedInEditorOutline" : true,
+          "scrollLeft" : 0,
           "$id" : "UIView6636",
-          "$type" : "SceneRootView",
           "position" : {
             "top" : 0,
             "left" : 0
@@ -856,7 +856,7 @@
           "hidden" : false,
           "userInteractionEnabled" : true,
           "name" : "Ansicht",
-          "scrollLeft" : 0
+          "$type" : "SceneRootView"
         },
         "$type" : "UIViewController",
         "$domain" : "appDoo.iOS"
@@ -903,6 +903,9 @@
         "userInteractionEnabled" : true,
         "$type" : "UINavigationBar"
       },
+      "selectedObjectIDs" : [
+        "UIButtona176a1cf52d040a18dafe628384e7e32"
+      ],
       "$type" : "Scene"
     },
     {
@@ -1402,6 +1405,8 @@
                 "actionType" : "objectAction",
                 "$id" : "UIBarButtonItem0a8e37987fca41bb9d816fd2c7fc823d",
                 "title" : "×",
+                "tag" : 0,
+                "$domain" : "appDoo.iOS",
                 "actionInfo" : {
                   "type" : "navigateBack",
                   "modalTransitionStyle" : "-1",
@@ -1410,7 +1415,6 @@
                   "$type" : "ActionInfo",
                   "$domain" : "appDoo"
                 },
-                "$domain" : "appDoo.iOS",
                 "itemType" : "systemItem"
               }
             ],
@@ -1924,6 +1928,8 @@
                 "actionType" : "objectAction",
                 "$id" : "UIBarButtonItemcbb118ffd8314dffbb85de540fc1fa37",
                 "title" : "×",
+                "tag" : 0,
+                "$domain" : "appDoo.iOS",
                 "actionInfo" : {
                   "type" : "navigateBack",
                   "modalTransitionStyle" : "-1",
@@ -1932,7 +1938,6 @@
                   "$type" : "ActionInfo",
                   "$domain" : "appDoo"
                 },
-                "$domain" : "appDoo.iOS",
                 "itemType" : "systemItem"
               }
             ],
@@ -2450,6 +2455,8 @@
                 "actionType" : "objectAction",
                 "$id" : "UIBarButtonItem00e580c6b17b48a5902491cb3494f931",
                 "title" : "×",
+                "tag" : 0,
+                "$domain" : "appDoo.iOS",
                 "actionInfo" : {
                   "type" : "navigateBack",
                   "modalTransitionStyle" : "-1",
@@ -2458,7 +2465,6 @@
                   "$type" : "ActionInfo",
                   "$domain" : "appDoo"
                 },
-                "$domain" : "appDoo.iOS",
                 "itemType" : "systemItem"
               }
             ],
@@ -2916,6 +2922,8 @@
                 "actionType" : "objectAction",
                 "$id" : "UIBarButtonItemede40114113843ce9120b1d2be02ebad",
                 "title" : "×",
+                "tag" : 0,
+                "$domain" : "appDoo.iOS",
                 "actionInfo" : {
                   "type" : "navigateBack",
                   "modalTransitionStyle" : "-1",
@@ -2924,7 +2932,6 @@
                   "$type" : "ActionInfo",
                   "$domain" : "appDoo"
                 },
-                "$domain" : "appDoo.iOS",
                 "itemType" : "systemItem"
               }
             ],
@@ -3442,6 +3449,8 @@
                 "actionType" : "objectAction",
                 "$id" : "UIBarButtonItem1da4e39815dd48aaa1decccab512aeab",
                 "title" : "×",
+                "tag" : 0,
+                "$domain" : "appDoo.iOS",
                 "actionInfo" : {
                   "type" : "navigateBack",
                   "modalTransitionStyle" : "-1",
@@ -3450,7 +3459,6 @@
                   "$type" : "ActionInfo",
                   "$domain" : "appDoo"
                 },
-                "$domain" : "appDoo.iOS",
                 "itemType" : "systemItem"
               }
             ],
@@ -3968,6 +3976,8 @@
                 "actionType" : "objectAction",
                 "$id" : "UIBarButtonItema275441916134f65b0d3f216a77b799e",
                 "title" : "×",
+                "tag" : 0,
+                "$domain" : "appDoo.iOS",
                 "actionInfo" : {
                   "type" : "navigateBack",
                   "modalTransitionStyle" : "-1",
@@ -3976,7 +3986,6 @@
                   "$type" : "ActionInfo",
                   "$domain" : "appDoo"
                 },
-                "$domain" : "appDoo.iOS",
                 "itemType" : "systemItem"
               }
             ],
@@ -4494,6 +4503,8 @@
                 "actionType" : "objectAction",
                 "$id" : "UIBarButtonIteme333cd54d65c48d8b93d2c9aac4b4be0",
                 "title" : "×",
+                "tag" : 0,
+                "$domain" : "appDoo.iOS",
                 "actionInfo" : {
                   "type" : "navigateBack",
                   "modalTransitionStyle" : "-1",
@@ -4502,7 +4513,6 @@
                   "$type" : "ActionInfo",
                   "$domain" : "appDoo"
                 },
-                "$domain" : "appDoo.iOS",
                 "itemType" : "systemItem"
               }
             ],
@@ -5020,6 +5030,8 @@
                 "actionType" : "objectAction",
                 "$id" : "UIBarButtonItemc330e9802af74b6a8ad57b59c9b7bb0a",
                 "title" : "×",
+                "tag" : 0,
+                "$domain" : "appDoo.iOS",
                 "actionInfo" : {
                   "type" : "navigateBack",
                   "modalTransitionStyle" : "-1",
@@ -5028,7 +5040,6 @@
                   "$type" : "ActionInfo",
                   "$domain" : "appDoo"
                 },
-                "$domain" : "appDoo.iOS",
                 "itemType" : "systemItem"
               }
             ],
@@ -5099,7 +5110,7 @@
     },
     "editorAppearance" : {
       "fileReferencesNodeIsExpandedInEditorOutline" : true,
-      "inspectorCurrentSegment" : 0,
+      "inspectorCurrentSegment" : 1,
       "collapsedNewItemSections" : [
 
       ],
