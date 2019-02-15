@@ -22,7 +22,7 @@
       "$id" : "UITabBar6007",
       "barStyle" : 0,
       "heightIsEditable" : false,
-      "$domain" : "appDoo.iOS",
+      "$domain" : "appdoo.iOS",
       "userInteractionEnabled" : true,
       "autoresizingMask" : 2,
       "size" : {
@@ -31,7 +31,7 @@
       }
     },
     "$type" : "UITabBarController",
-    "$domain" : "appDoo.iOS"
+    "$domain" : "appdoo.iOS"
   },
   "scenes" : [
     {
@@ -44,7 +44,7 @@
       "v_separateStatusBar" : false,
       "supportedInterfaceOrientations" : 2,
       "showsTabBar" : false,
-      "$domain" : "appDoo.iOS",
+      "$domain" : "appdoo.iOS",
       "previewSize" : {
         "width" : 375,
         "height" : 667
@@ -54,55 +54,55 @@
           "destinationSceneID" : "Scene6bae25df54b647e2bbe063ca2607cd6c",
           "viewID" : "UIButtona176a1cf52d040a18dafe628384e7e32",
           "$type" : "Segue",
-          "$domain" : "appDoo.iOS"
+          "$domain" : "appdoo.iOS"
         },
         {
           "destinationSceneID" : "Scenebdee0a5897014517ab2c7de2ca428b32",
           "viewID" : "UIButton30f8c21c7e4749b693397682be9eb539",
           "$type" : "Segue",
-          "$domain" : "appDoo.iOS"
+          "$domain" : "appdoo.iOS"
         },
         {
           "destinationSceneID" : "Scenee3a95002413a44938e2d188c849d131f",
           "viewID" : "UIButtona3a2f856a3b347b49e6ee6038f2d9b67",
           "$type" : "Segue",
-          "$domain" : "appDoo.iOS"
+          "$domain" : "appdoo.iOS"
         },
         {
           "destinationSceneID" : "Scene9296114ba0564b5596fa3410ffb95621",
           "viewID" : "UIButton3ba4e6d550bf4f5f8d86ccddd3193586",
           "$type" : "Segue",
-          "$domain" : "appDoo.iOS"
+          "$domain" : "appdoo.iOS"
         },
         {
           "destinationSceneID" : "Scenec9527f099777452a81b2bf756f140383",
           "viewID" : "UIButton7e36dae3b3c94ac0b6a616f048e52808",
           "$type" : "Segue",
-          "$domain" : "appDoo.iOS"
+          "$domain" : "appdoo.iOS"
         },
         {
           "destinationSceneID" : "Scene8fd1999ca2c24ad985a35736b190ed08",
           "viewID" : "UIButton673e655c0ea943c68439cfb944aa5d64",
           "$type" : "Segue",
-          "$domain" : "appDoo.iOS"
+          "$domain" : "appdoo.iOS"
         },
         {
           "destinationSceneID" : "Scene84c238cfc5814e9cbe276b07233ab014",
           "viewID" : "UIButton441fd2530ecd404fa3590ca54989e47a",
           "$type" : "Segue",
-          "$domain" : "appDoo.iOS"
+          "$domain" : "appdoo.iOS"
         },
         {
           "destinationSceneID" : "Scene9e229945a1c04e1ebc7f31701ef9fd1a",
           "viewID" : "UIButtonab2a695155c0418db91ce9684a77c74f",
           "$type" : "Segue",
-          "$domain" : "appDoo.iOS"
+          "$domain" : "appdoo.iOS"
         },
         {
           "destinationSceneID" : "Scene535c9a25e2314ab7baf6aa5b4743d421",
           "viewID" : "UIBarButtonItembfd0375ee8af4f21a554a496f7ce9ab8",
           "$type" : "Segue",
-          "$domain" : "appDoo.iOS"
+          "$domain" : "appdoo.iOS"
         }
       ],
       "hasCustomInterfaceOrientations" : false,
@@ -116,7 +116,7 @@
             "actionType" : "objectAction",
             "objectActionID" : "",
             "$type" : "ActionInfo",
-            "$domain" : "appDoo"
+            "$domain" : "appdoo"
           },
           "URLRequest" : {
             "$type" : "URLRequest",
@@ -132,7 +132,7 @@
           "$id" : "UITabBarItem9436",
           "title" : "ABC Radio",
           "$type" : "UITabBarItem",
-          "$domain" : "appDoo.iOS"
+          "$domain" : "appdoo.iOS"
         },
         "title" : "ABC Radio",
         "viewData" : {
@@ -144,7 +144,7 @@
             "left" : 0
           },
           "backgroundColor" : "rgba(222,76,84,1.00)",
-          "$domain" : "appDoo.iOS",
+          "$domain" : "appdoo.iOS",
           "autoresizingMask" : 18,
           "frame" : {
             "origin" : {
@@ -210,7 +210,7 @@
               },
               "hidden" : false,
               "$id" : "UIButton441fd2530ecd404fa3590ca54989e47a",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "backgroundColor" : "rgba(230,237,220,1.00)",
               "heightIsEditable" : true,
               "transform" : "",
@@ -220,7 +220,7 @@
                 "actionType" : "showScene",
                 "modalTransitionStyle" : "UIModalTransitionStyleCrossDissolve",
                 "destinationSceneID" : "Scene84c238cfc5814e9cbe276b07233ab014",
-                "$domain" : "appDoo",
+                "$domain" : "appdoo",
                 "objectActionID" : "",
                 "type" : "showScene"
               },
@@ -273,7 +273,7 @@
               },
               "hidden" : false,
               "$id" : "UIButtonab2a695155c0418db91ce9684a77c74f",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "backgroundColor" : "rgba(230,237,220,1.00)",
               "heightIsEditable" : true,
               "transform" : "",
@@ -283,7 +283,7 @@
                 "actionType" : "showScene",
                 "modalTransitionStyle" : "UIModalTransitionStyleCrossDissolve",
                 "destinationSceneID" : "Scene9e229945a1c04e1ebc7f31701ef9fd1a",
-                "$domain" : "appDoo",
+                "$domain" : "appdoo",
                 "objectActionID" : "",
                 "type" : "showScene"
               },
@@ -336,7 +336,7 @@
               },
               "hidden" : false,
               "$id" : "UIButton673e655c0ea943c68439cfb944aa5d64",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "backgroundColor" : "rgba(230,237,220,1.00)",
               "heightIsEditable" : true,
               "transform" : "",
@@ -346,7 +346,7 @@
                 "actionType" : "showScene",
                 "modalTransitionStyle" : "UIModalTransitionStyleCrossDissolve",
                 "destinationSceneID" : "Scene8fd1999ca2c24ad985a35736b190ed08",
-                "$domain" : "appDoo",
+                "$domain" : "appdoo",
                 "objectActionID" : "",
                 "type" : "showScene"
               },
@@ -399,7 +399,7 @@
               },
               "hidden" : false,
               "$id" : "UIButton7e36dae3b3c94ac0b6a616f048e52808",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "backgroundColor" : "rgba(230,237,220,1.00)",
               "heightIsEditable" : true,
               "transform" : "",
@@ -409,7 +409,7 @@
                 "actionType" : "showScene",
                 "modalTransitionStyle" : "UIModalTransitionStyleCrossDissolve",
                 "destinationSceneID" : "Scenec9527f099777452a81b2bf756f140383",
-                "$domain" : "appDoo",
+                "$domain" : "appdoo",
                 "objectActionID" : "",
                 "type" : "showScene"
               },
@@ -462,7 +462,7 @@
               },
               "hidden" : false,
               "$id" : "UIButton3ba4e6d550bf4f5f8d86ccddd3193586",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "backgroundColor" : "rgba(230,237,220,1.00)",
               "heightIsEditable" : true,
               "transform" : "",
@@ -472,7 +472,7 @@
                 "actionType" : "showScene",
                 "modalTransitionStyle" : "UIModalTransitionStyleCrossDissolve",
                 "destinationSceneID" : "Scene9296114ba0564b5596fa3410ffb95621",
-                "$domain" : "appDoo",
+                "$domain" : "appdoo",
                 "objectActionID" : "",
                 "type" : "showScene"
               },
@@ -525,7 +525,7 @@
               },
               "hidden" : false,
               "$id" : "UIButtona3a2f856a3b347b49e6ee6038f2d9b67",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "backgroundColor" : "rgba(230,237,220,1.00)",
               "heightIsEditable" : true,
               "transform" : "",
@@ -535,7 +535,7 @@
                 "actionType" : "showScene",
                 "modalTransitionStyle" : "UIModalTransitionStyleCrossDissolve",
                 "destinationSceneID" : "Scenee3a95002413a44938e2d188c849d131f",
-                "$domain" : "appDoo",
+                "$domain" : "appdoo",
                 "objectActionID" : "",
                 "type" : "showScene"
               },
@@ -588,7 +588,7 @@
               },
               "hidden" : false,
               "$id" : "UIButton30f8c21c7e4749b693397682be9eb539",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "backgroundColor" : "rgba(230,237,220,1.00)",
               "heightIsEditable" : true,
               "transform" : "",
@@ -598,7 +598,7 @@
                 "actionType" : "showScene",
                 "modalTransitionStyle" : "UIModalTransitionStyleCrossDissolve",
                 "destinationSceneID" : "Scenebdee0a5897014517ab2c7de2ca428b32",
-                "$domain" : "appDoo",
+                "$domain" : "appdoo",
                 "objectActionID" : "",
                 "type" : "showScene"
               },
@@ -651,7 +651,7 @@
               },
               "hidden" : false,
               "$id" : "UIButtona176a1cf52d040a18dafe628384e7e32",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "backgroundColor" : "rgba(230,237,220,1.00)",
               "heightIsEditable" : true,
               "transform" : "",
@@ -661,7 +661,7 @@
                 "actionType" : "showScene",
                 "modalTransitionStyle" : "UIModalTransitionStyleCrossDissolve",
                 "destinationSceneID" : "Scene6bae25df54b647e2bbe063ca2607cd6c",
-                "$domain" : "appDoo",
+                "$domain" : "appdoo",
                 "objectActionID" : "",
                 "type" : "showScene"
               },
@@ -710,7 +710,7 @@
           "scrollLeft" : 0
         },
         "$type" : "UIViewController",
-        "$domain" : "appDoo.iOS"
+        "$domain" : "appdoo.iOS"
       },
       "v_showsInTabBar" : false,
       "navigationObjectsNodeIsExpandedInEditorOutline" : true,
@@ -731,7 +731,7 @@
             "height" : 64
           }
         },
-        "$domain" : "appDoo.iOS",
+        "$domain" : "appdoo.iOS",
         "autoresizingMask" : 2,
         "translucent" : false,
         "title" : "ABC Radio",
@@ -756,16 +756,16 @@
                   "actionType" : "showScene",
                   "modalTransitionStyle" : "UIModalTransitionStyleFlipHorizontal",
                   "destinationSceneID" : "Scene535c9a25e2314ab7baf6aa5b4743d421",
-                  "$domain" : "appDoo",
+                  "$domain" : "appdoo",
                   "objectActionID" : "",
                   "type" : "showScene"
                 },
-                "$domain" : "appDoo.iOS",
+                "$domain" : "appdoo.iOS",
                 "itemType" : "text"
               }
             ],
             "$type" : "UINavigationItem",
-            "$domain" : "appDoo.iOS"
+            "$domain" : "appdoo.iOS"
           }
         ],
         "barTintColor" : "rgba(89,169,184,1.00)",
@@ -787,7 +787,7 @@
       },
       "sceneObjectsNodeIsExpandedInEditorOutline" : true,
       "v_separateStatusBar" : false,
-      "$domain" : "appDoo.iOS",
+      "$domain" : "appdoo.iOS",
       "previewSize" : {
         "width" : 375,
         "height" : 667
@@ -800,7 +800,7 @@
           "$id" : "UITabBarIteme75c7bc099ab462fbe962599ac08c390",
           "title" : "ABC NEWS",
           "$type" : "UITabBarItem",
-          "$domain" : "appDoo.iOS"
+          "$domain" : "appdoo.iOS"
         },
         "title" : "ABC NEWS",
         "viewData" : {
@@ -812,7 +812,7 @@
             "left" : 0
           },
           "backgroundColor" : "rgba(92,174,189,1.00)",
-          "$domain" : "appDoo.iOS",
+          "$domain" : "appdoo.iOS",
           "autoresizingMask" : 18,
           "frame" : {
             "origin" : {
@@ -846,7 +846,7 @@
               "hidden" : false,
               "$id" : "UILabela5941a83de6a4ecf9cf3708e6c69ed8b",
               "textColor" : "rgba(254,255,255,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "backgroundColor" : "rgba(219,75,83,1.00)",
               "heightIsEditable" : true,
               "transform" : "",
@@ -898,12 +898,12 @@
                 },
                 "$id" : "MoviePlayerView1cf15c05b4e643b5a4055924640ac742DataProvider",
                 "actionInfo" : {
-                  "$domain" : "appDoo",
+                  "$domain" : "appdoo",
                   "modalTransitionStyle" : "-1",
                   "actionType" : "objectAction",
                   "type" : "objectAction",
-                  "objectActionID" : "",
-                  "$type" : "ActionInfo"
+                  "$type" : "ActionInfo",
+                  "objectActionID" : ""
                 },
                 "propertiesForBindings" : [
                   "currentPlaybackTime",
@@ -959,7 +959,7 @@
               "hidden" : false,
               "$id" : "UILabelc903c3a165254101bc917487684d9fd9",
               "textColor" : "rgba(92,174,189,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "bindings" : [
                 {
                   "destination" : "MoviePlayerView1cf15c05b4e643b5a4055924640ac742DataProvider",
@@ -1024,12 +1024,12 @@
               "transform" : "",
               "textAlignment" : "center",
               "actionInfo" : {
-                "$domain" : "appDoo",
+                "$domain" : "appdoo",
                 "modalTransitionStyle" : "-1",
                 "actionType" : "objectAction",
                 "type" : "objectAction",
-                "objectActionID" : "",
-                "$type" : "ActionInfo"
+                "$type" : "ActionInfo",
+                "objectActionID" : ""
               },
               "userInteractionEnabled" : true,
               "layoutRelations" : [
@@ -1076,7 +1076,7 @@
               "hidden" : false,
               "$id" : "UILabele2b7e8c0f025464eada07069644046f4",
               "textColor" : "rgba(254,255,255,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "heightIsEditable" : false,
               "transform" : "",
               "textAlignment" : "center",
@@ -1126,7 +1126,7 @@
                   "height" : 108
                 }
               },
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "autoresizingMask" : 34,
               "imageURLString" : "",
               "contentMode" : "scaleAspectFit",
@@ -1164,7 +1164,7 @@
           "scrollLeft" : 0
         },
         "$type" : "UIViewController",
-        "$domain" : "appDoo.iOS"
+        "$domain" : "appdoo.iOS"
       },
       "navigationBar" : {
         "isExpandedInEditorOutline" : true,
@@ -1183,7 +1183,7 @@
             "height" : 64
           }
         },
-        "$domain" : "appDoo.iOS",
+        "$domain" : "appdoo.iOS",
         "autoresizingMask" : 2,
         "translucent" : false,
         "title" : "ABC NEWS",
@@ -1209,14 +1209,14 @@
                   "actionType" : "navigateBack",
                   "objectActionID" : "",
                   "$type" : "ActionInfo",
-                  "$domain" : "appDoo"
+                  "$domain" : "appdoo"
                 },
-                "$domain" : "appDoo.iOS",
+                "$domain" : "appdoo.iOS",
                 "itemType" : "systemItem"
               }
             ],
             "$type" : "UINavigationItem",
-            "$domain" : "appDoo.iOS"
+            "$domain" : "appdoo.iOS"
           }
         ],
         "barTintColor" : "rgba(222,76,84,1.00)",
@@ -1249,7 +1249,7 @@
             "height" : 64
           }
         },
-        "$domain" : "appDoo.iOS",
+        "$domain" : "appdoo.iOS",
         "autoresizingMask" : 2,
         "translucent" : false,
         "title" : "ABC Grandstand",
@@ -1273,14 +1273,14 @@
                   "actionType" : "navigateBack",
                   "objectActionID" : "",
                   "$type" : "ActionInfo",
-                  "$domain" : "appDoo"
+                  "$domain" : "appdoo"
                 },
-                "$domain" : "appDoo.iOS",
+                "$domain" : "appdoo.iOS",
                 "itemType" : "systemItem"
               }
             ],
             "$type" : "UINavigationItem",
-            "$domain" : "appDoo.iOS"
+            "$domain" : "appdoo.iOS"
           }
         ],
         "barTintColor" : "rgba(222,76,84,1.00)",
@@ -1303,7 +1303,7 @@
           "$id" : "UITabBarItem22e879b8a8c348358f90e4cad4c97358",
           "title" : "ABC Grandstand",
           "$type" : "UITabBarItem",
-          "$domain" : "appDoo.iOS"
+          "$domain" : "appdoo.iOS"
         },
         "title" : "ABC Grandstand",
         "viewData" : {
@@ -1315,7 +1315,7 @@
             "left" : 0
           },
           "backgroundColor" : "rgba(92,174,189,1.00)",
-          "$domain" : "appDoo.iOS",
+          "$domain" : "appdoo.iOS",
           "autoresizingMask" : 18,
           "frame" : {
             "origin" : {
@@ -1349,7 +1349,7 @@
               "hidden" : false,
               "$id" : "UILabel2041fdd63af545f2bb0fba74423c90a7",
               "textColor" : "rgba(254,255,255,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "backgroundColor" : "rgba(222,76,84,1.00)",
               "heightIsEditable" : true,
               "transform" : "",
@@ -1401,12 +1401,12 @@
                 },
                 "$id" : "MoviePlayerDataProvidere5e0398c42054526beab1bace3a595f2",
                 "actionInfo" : {
-                  "$domain" : "appDoo",
+                  "$domain" : "appdoo",
                   "modalTransitionStyle" : "-1",
                   "actionType" : "objectAction",
                   "type" : "objectAction",
-                  "objectActionID" : "",
-                  "$type" : "ActionInfo"
+                  "$type" : "ActionInfo",
+                  "objectActionID" : ""
                 },
                 "propertiesForBindings" : [
                   "currentPlaybackTime",
@@ -1462,7 +1462,7 @@
               "hidden" : false,
               "$id" : "UILabel93d8088ef2314a2f95c4977be54b12ab",
               "textColor" : "rgba(92,174,189,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "bindings" : [
                 {
                   "destination" : "MoviePlayerDataProvidere5e0398c42054526beab1bace3a595f2",
@@ -1527,12 +1527,12 @@
               "transform" : "",
               "textAlignment" : "center",
               "actionInfo" : {
-                "$domain" : "appDoo",
+                "$domain" : "appdoo",
                 "modalTransitionStyle" : "-1",
                 "actionType" : "objectAction",
                 "type" : "objectAction",
-                "objectActionID" : "",
-                "$type" : "ActionInfo"
+                "$type" : "ActionInfo",
+                "objectActionID" : ""
               },
               "userInteractionEnabled" : true,
               "layoutRelations" : [
@@ -1579,7 +1579,7 @@
               "hidden" : false,
               "$id" : "UILabel8376a4da7b274bafa7c6ba4d1cbfc5f6",
               "textColor" : "rgba(254,255,255,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "heightIsEditable" : false,
               "transform" : "",
               "textAlignment" : "center",
@@ -1629,7 +1629,7 @@
                   "height" : 108
                 }
               },
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "autoresizingMask" : 34,
               "imageURLString" : "",
               "contentMode" : "scaleAspectFit",
@@ -1667,12 +1667,12 @@
           "scrollLeft" : 0
         },
         "$type" : "UIViewController",
-        "$domain" : "appDoo.iOS"
+        "$domain" : "appdoo.iOS"
       },
       "$id" : "Scenebdee0a5897014517ab2c7de2ca428b32",
       "v_separateStatusBar" : false,
       "navigationObjectsNodeIsExpandedInEditorOutline" : true,
-      "$domain" : "appDoo.iOS",
+      "$domain" : "appdoo.iOS",
       "sceneObjectsNodeIsExpandedInEditorOutline" : true,
       "hasCustomInterfaceOrientations" : false,
       "previewSize" : {
@@ -1699,7 +1699,7 @@
             "height" : 64
           }
         },
-        "$domain" : "appDoo.iOS",
+        "$domain" : "appdoo.iOS",
         "autoresizingMask" : 2,
         "translucent" : false,
         "title" : "triple j",
@@ -1723,14 +1723,14 @@
                   "actionType" : "navigateBack",
                   "objectActionID" : "",
                   "$type" : "ActionInfo",
-                  "$domain" : "appDoo"
+                  "$domain" : "appdoo"
                 },
-                "$domain" : "appDoo.iOS",
+                "$domain" : "appdoo.iOS",
                 "itemType" : "systemItem"
               }
             ],
             "$type" : "UINavigationItem",
-            "$domain" : "appDoo.iOS"
+            "$domain" : "appdoo.iOS"
           }
         ],
         "barTintColor" : "rgba(222,76,84,1.00)",
@@ -1753,7 +1753,7 @@
           "$id" : "UITabBarIteme0863b0438564415a19dcd98010dc6b2",
           "title" : "triple j",
           "$type" : "UITabBarItem",
-          "$domain" : "appDoo.iOS"
+          "$domain" : "appdoo.iOS"
         },
         "title" : "triple j",
         "viewData" : {
@@ -1765,7 +1765,7 @@
             "left" : 0
           },
           "backgroundColor" : "rgba(92,174,189,1.00)",
-          "$domain" : "appDoo.iOS",
+          "$domain" : "appdoo.iOS",
           "autoresizingMask" : 18,
           "frame" : {
             "origin" : {
@@ -1799,7 +1799,7 @@
               "hidden" : false,
               "$id" : "UILabeld04807b0f4ca47a1a350fd19e125dc52",
               "textColor" : "rgba(254,255,255,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "backgroundColor" : "rgba(222,76,84,1.00)",
               "heightIsEditable" : true,
               "transform" : "",
@@ -1851,12 +1851,12 @@
                 },
                 "$id" : "MoviePlayerDataProvidera3e122a3b19a473d8a14db36b551756d",
                 "actionInfo" : {
-                  "$domain" : "appDoo",
+                  "$domain" : "appdoo",
                   "modalTransitionStyle" : "-1",
                   "actionType" : "objectAction",
                   "type" : "objectAction",
-                  "objectActionID" : "",
-                  "$type" : "ActionInfo"
+                  "$type" : "ActionInfo",
+                  "objectActionID" : ""
                 },
                 "propertiesForBindings" : [
                   "currentPlaybackTime",
@@ -1912,7 +1912,7 @@
               "hidden" : false,
               "$id" : "UILabel5718284c0935450fa6e4aa91abad9cba",
               "textColor" : "rgba(92,174,189,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "bindings" : [
                 {
                   "destination" : "MoviePlayerDataProvidera3e122a3b19a473d8a14db36b551756d",
@@ -1977,12 +1977,12 @@
               "transform" : "",
               "textAlignment" : "center",
               "actionInfo" : {
-                "$domain" : "appDoo",
+                "$domain" : "appdoo",
                 "modalTransitionStyle" : "-1",
                 "actionType" : "objectAction",
                 "type" : "objectAction",
-                "objectActionID" : "",
-                "$type" : "ActionInfo"
+                "$type" : "ActionInfo",
+                "objectActionID" : ""
               },
               "userInteractionEnabled" : true,
               "layoutRelations" : [
@@ -2029,7 +2029,7 @@
               "hidden" : false,
               "$id" : "UILabel26693af72c3342e391a5e6555ca40359",
               "textColor" : "rgba(254,255,255,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "heightIsEditable" : false,
               "transform" : "",
               "textAlignment" : "center",
@@ -2079,7 +2079,7 @@
                   "height" : 108
                 }
               },
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "autoresizingMask" : 34,
               "imageURLString" : "",
               "contentMode" : "scaleAspectFit",
@@ -2117,12 +2117,12 @@
           "scrollLeft" : 0
         },
         "$type" : "UIViewController",
-        "$domain" : "appDoo.iOS"
+        "$domain" : "appdoo.iOS"
       },
       "$id" : "Scenee3a95002413a44938e2d188c849d131f",
       "v_separateStatusBar" : false,
       "navigationObjectsNodeIsExpandedInEditorOutline" : true,
-      "$domain" : "appDoo.iOS",
+      "$domain" : "appdoo.iOS",
       "sceneObjectsNodeIsExpandedInEditorOutline" : true,
       "hasCustomInterfaceOrientations" : false,
       "previewSize" : {
@@ -2149,7 +2149,7 @@
             "height" : 64
           }
         },
-        "$domain" : "appDoo.iOS",
+        "$domain" : "appdoo.iOS",
         "autoresizingMask" : 2,
         "translucent" : false,
         "title" : "Double J",
@@ -2173,14 +2173,14 @@
                   "actionType" : "navigateBack",
                   "objectActionID" : "",
                   "$type" : "ActionInfo",
-                  "$domain" : "appDoo"
+                  "$domain" : "appdoo"
                 },
-                "$domain" : "appDoo.iOS",
+                "$domain" : "appdoo.iOS",
                 "itemType" : "systemItem"
               }
             ],
             "$type" : "UINavigationItem",
-            "$domain" : "appDoo.iOS"
+            "$domain" : "appdoo.iOS"
           }
         ],
         "barTintColor" : "rgba(222,76,84,1.00)",
@@ -2203,7 +2203,7 @@
           "$id" : "UITabBarItem77fa01ffe88a48779f90d9a779e15869",
           "title" : "Double J",
           "$type" : "UITabBarItem",
-          "$domain" : "appDoo.iOS"
+          "$domain" : "appdoo.iOS"
         },
         "title" : "Double J",
         "viewData" : {
@@ -2215,7 +2215,7 @@
             "left" : 0
           },
           "backgroundColor" : "rgba(92,174,189,1.00)",
-          "$domain" : "appDoo.iOS",
+          "$domain" : "appdoo.iOS",
           "autoresizingMask" : 18,
           "frame" : {
             "origin" : {
@@ -2249,7 +2249,7 @@
               "hidden" : false,
               "$id" : "UILabelc483601c65684128ae5cf37c6973f9ab",
               "textColor" : "rgba(254,255,255,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "backgroundColor" : "rgba(222,76,84,1.00)",
               "heightIsEditable" : true,
               "transform" : "",
@@ -2301,12 +2301,12 @@
                 },
                 "$id" : "MoviePlayerDataProviderd55fceb180d44b62a4cdf6fd9f8ce89c",
                 "actionInfo" : {
-                  "$domain" : "appDoo",
+                  "$domain" : "appdoo",
                   "modalTransitionStyle" : "-1",
                   "actionType" : "objectAction",
                   "type" : "objectAction",
-                  "objectActionID" : "",
-                  "$type" : "ActionInfo"
+                  "$type" : "ActionInfo",
+                  "objectActionID" : ""
                 },
                 "propertiesForBindings" : [
                   "currentPlaybackTime",
@@ -2362,7 +2362,7 @@
               "hidden" : false,
               "$id" : "UILabel53dec49b751943b7bc5a9b3049b2df4f",
               "textColor" : "rgba(92,174,189,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "bindings" : [
                 {
                   "destination" : "MoviePlayerDataProviderd55fceb180d44b62a4cdf6fd9f8ce89c",
@@ -2419,7 +2419,7 @@
               "hidden" : false,
               "$id" : "UILabel1f4a30b4e1744443b8e27da4f25f9946",
               "textColor" : "rgba(254,255,255,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "heightIsEditable" : false,
               "transform" : "",
               "textAlignment" : "center",
@@ -2469,7 +2469,7 @@
                   "height" : 108
                 }
               },
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "autoresizingMask" : 34,
               "imageURLString" : "",
               "contentMode" : "scaleAspectFit",
@@ -2507,12 +2507,12 @@
           "scrollLeft" : 0
         },
         "$type" : "UIViewController",
-        "$domain" : "appDoo.iOS"
+        "$domain" : "appdoo.iOS"
       },
       "$id" : "Scene9296114ba0564b5596fa3410ffb95621",
       "v_separateStatusBar" : false,
       "navigationObjectsNodeIsExpandedInEditorOutline" : true,
-      "$domain" : "appDoo.iOS",
+      "$domain" : "appdoo.iOS",
       "sceneObjectsNodeIsExpandedInEditorOutline" : true,
       "hasCustomInterfaceOrientations" : false,
       "previewSize" : {
@@ -2539,7 +2539,7 @@
             "height" : 64
           }
         },
-        "$domain" : "appDoo.iOS",
+        "$domain" : "appdoo.iOS",
         "autoresizingMask" : 2,
         "translucent" : false,
         "title" : "ABC CLASSIC",
@@ -2563,14 +2563,14 @@
                   "actionType" : "navigateBack",
                   "objectActionID" : "",
                   "$type" : "ActionInfo",
-                  "$domain" : "appDoo"
+                  "$domain" : "appdoo"
                 },
-                "$domain" : "appDoo.iOS",
+                "$domain" : "appdoo.iOS",
                 "itemType" : "systemItem"
               }
             ],
             "$type" : "UINavigationItem",
-            "$domain" : "appDoo.iOS"
+            "$domain" : "appdoo.iOS"
           }
         ],
         "barTintColor" : "rgba(222,76,84,1.00)",
@@ -2593,7 +2593,7 @@
           "$id" : "UITabBarItem138f5ccabf074fbdacdd619e77342ea3",
           "title" : "ABC CLASSIC",
           "$type" : "UITabBarItem",
-          "$domain" : "appDoo.iOS"
+          "$domain" : "appdoo.iOS"
         },
         "title" : "ABC CLASSIC",
         "viewData" : {
@@ -2605,7 +2605,7 @@
             "left" : 0
           },
           "backgroundColor" : "rgba(92,174,189,1.00)",
-          "$domain" : "appDoo.iOS",
+          "$domain" : "appdoo.iOS",
           "autoresizingMask" : 18,
           "frame" : {
             "origin" : {
@@ -2639,7 +2639,7 @@
               "hidden" : false,
               "$id" : "UILabel14e7d27ef3b84a19b9a0178e52e93745",
               "textColor" : "rgba(254,255,255,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "backgroundColor" : "rgba(222,76,84,1.00)",
               "heightIsEditable" : true,
               "transform" : "",
@@ -2691,12 +2691,12 @@
                 },
                 "$id" : "MoviePlayerDataProvider9aa4d17156154e80b3f6e5467ed492e5",
                 "actionInfo" : {
-                  "$domain" : "appDoo",
+                  "$domain" : "appdoo",
                   "modalTransitionStyle" : "-1",
                   "actionType" : "objectAction",
                   "type" : "objectAction",
-                  "objectActionID" : "",
-                  "$type" : "ActionInfo"
+                  "$type" : "ActionInfo",
+                  "objectActionID" : ""
                 },
                 "propertiesForBindings" : [
                   "currentPlaybackTime",
@@ -2752,7 +2752,7 @@
               "hidden" : false,
               "$id" : "UILabel47514e5be1fb44b88fb9f76478d6194b",
               "textColor" : "rgba(92,174,189,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "bindings" : [
                 {
                   "destination" : "MoviePlayerDataProvider9aa4d17156154e80b3f6e5467ed492e5",
@@ -2817,12 +2817,12 @@
               "transform" : "",
               "textAlignment" : "center",
               "actionInfo" : {
-                "$domain" : "appDoo",
+                "$domain" : "appdoo",
                 "modalTransitionStyle" : "-1",
                 "actionType" : "objectAction",
                 "type" : "objectAction",
-                "objectActionID" : "",
-                "$type" : "ActionInfo"
+                "$type" : "ActionInfo",
+                "objectActionID" : ""
               },
               "userInteractionEnabled" : true,
               "layoutRelations" : [
@@ -2869,7 +2869,7 @@
               "hidden" : false,
               "$id" : "UILabel5b649ace67454ad5a6804775899c9bb8",
               "textColor" : "rgba(254,255,255,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "heightIsEditable" : false,
               "transform" : "",
               "textAlignment" : "center",
@@ -2919,7 +2919,7 @@
                   "height" : 108
                 }
               },
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "autoresizingMask" : 34,
               "imageURLString" : "",
               "contentMode" : "scaleAspectFit",
@@ -2957,12 +2957,12 @@
           "scrollLeft" : 0
         },
         "$type" : "UIViewController",
-        "$domain" : "appDoo.iOS"
+        "$domain" : "appdoo.iOS"
       },
       "$id" : "Scenec9527f099777452a81b2bf756f140383",
       "v_separateStatusBar" : false,
       "navigationObjectsNodeIsExpandedInEditorOutline" : true,
-      "$domain" : "appDoo.iOS",
+      "$domain" : "appdoo.iOS",
       "sceneObjectsNodeIsExpandedInEditorOutline" : true,
       "hasCustomInterfaceOrientations" : false,
       "previewSize" : {
@@ -2989,7 +2989,7 @@
             "height" : 64
           }
         },
-        "$domain" : "appDoo.iOS",
+        "$domain" : "appdoo.iOS",
         "autoresizingMask" : 2,
         "translucent" : false,
         "title" : "ABC Jazz",
@@ -3013,14 +3013,14 @@
                   "actionType" : "navigateBack",
                   "objectActionID" : "",
                   "$type" : "ActionInfo",
-                  "$domain" : "appDoo"
+                  "$domain" : "appdoo"
                 },
-                "$domain" : "appDoo.iOS",
+                "$domain" : "appdoo.iOS",
                 "itemType" : "systemItem"
               }
             ],
             "$type" : "UINavigationItem",
-            "$domain" : "appDoo.iOS"
+            "$domain" : "appdoo.iOS"
           }
         ],
         "barTintColor" : "rgba(222,76,84,1.00)",
@@ -3043,7 +3043,7 @@
           "$id" : "UITabBarItemeaa4ab665da24decb964668f29cd7299",
           "title" : "ABC Jazz",
           "$type" : "UITabBarItem",
-          "$domain" : "appDoo.iOS"
+          "$domain" : "appdoo.iOS"
         },
         "title" : "ABC Jazz",
         "viewData" : {
@@ -3055,7 +3055,7 @@
             "left" : 0
           },
           "backgroundColor" : "rgba(92,174,189,1.00)",
-          "$domain" : "appDoo.iOS",
+          "$domain" : "appdoo.iOS",
           "autoresizingMask" : 18,
           "frame" : {
             "origin" : {
@@ -3089,7 +3089,7 @@
               "hidden" : false,
               "$id" : "UILabeld435df44b7774b73b476d55da935b264",
               "textColor" : "rgba(254,255,255,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "backgroundColor" : "rgba(222,76,84,1.00)",
               "heightIsEditable" : true,
               "transform" : "",
@@ -3141,12 +3141,12 @@
                 },
                 "$id" : "MoviePlayerDataProvider0ca88788633c45f7bab32730ca0a1103",
                 "actionInfo" : {
-                  "$domain" : "appDoo",
+                  "$domain" : "appdoo",
                   "modalTransitionStyle" : "-1",
                   "actionType" : "objectAction",
                   "type" : "objectAction",
-                  "objectActionID" : "",
-                  "$type" : "ActionInfo"
+                  "$type" : "ActionInfo",
+                  "objectActionID" : ""
                 },
                 "propertiesForBindings" : [
                   "currentPlaybackTime",
@@ -3202,7 +3202,7 @@
               "hidden" : false,
               "$id" : "UILabel6929a765037a46868dde190d544fe0bc",
               "textColor" : "rgba(92,174,189,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "bindings" : [
                 {
                   "destination" : "MoviePlayerDataProvider0ca88788633c45f7bab32730ca0a1103",
@@ -3267,12 +3267,12 @@
               "transform" : "",
               "textAlignment" : "center",
               "actionInfo" : {
-                "$domain" : "appDoo",
+                "$domain" : "appdoo",
                 "modalTransitionStyle" : "-1",
                 "actionType" : "objectAction",
                 "type" : "objectAction",
-                "objectActionID" : "",
-                "$type" : "ActionInfo"
+                "$type" : "ActionInfo",
+                "objectActionID" : ""
               },
               "userInteractionEnabled" : true,
               "layoutRelations" : [
@@ -3319,7 +3319,7 @@
               "hidden" : false,
               "$id" : "UILabele9277dc5de424af0a66ef2f253c86c0c",
               "textColor" : "rgba(254,255,255,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "heightIsEditable" : false,
               "transform" : "",
               "textAlignment" : "center",
@@ -3369,7 +3369,7 @@
                   "height" : 108
                 }
               },
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "autoresizingMask" : 34,
               "imageURLString" : "",
               "contentMode" : "scaleAspectFit",
@@ -3407,12 +3407,12 @@
           "scrollLeft" : 0
         },
         "$type" : "UIViewController",
-        "$domain" : "appDoo.iOS"
+        "$domain" : "appdoo.iOS"
       },
       "$id" : "Scene8fd1999ca2c24ad985a35736b190ed08",
       "v_separateStatusBar" : false,
       "navigationObjectsNodeIsExpandedInEditorOutline" : true,
-      "$domain" : "appDoo.iOS",
+      "$domain" : "appdoo.iOS",
       "sceneObjectsNodeIsExpandedInEditorOutline" : true,
       "hasCustomInterfaceOrientations" : false,
       "previewSize" : {
@@ -3439,7 +3439,7 @@
             "height" : 64
           }
         },
-        "$domain" : "appDoo.iOS",
+        "$domain" : "appdoo.iOS",
         "autoresizingMask" : 2,
         "translucent" : false,
         "title" : "ABC Country",
@@ -3463,14 +3463,14 @@
                   "actionType" : "navigateBack",
                   "objectActionID" : "",
                   "$type" : "ActionInfo",
-                  "$domain" : "appDoo"
+                  "$domain" : "appdoo"
                 },
-                "$domain" : "appDoo.iOS",
+                "$domain" : "appdoo.iOS",
                 "itemType" : "systemItem"
               }
             ],
             "$type" : "UINavigationItem",
-            "$domain" : "appDoo.iOS"
+            "$domain" : "appdoo.iOS"
           }
         ],
         "barTintColor" : "rgba(222,76,84,1.00)",
@@ -3493,7 +3493,7 @@
           "$id" : "UITabBarItemb5faffac49cc414bb51271032d244ab4",
           "title" : "ABC Country",
           "$type" : "UITabBarItem",
-          "$domain" : "appDoo.iOS"
+          "$domain" : "appdoo.iOS"
         },
         "title" : "ABC Country",
         "viewData" : {
@@ -3505,7 +3505,7 @@
             "left" : 0
           },
           "backgroundColor" : "rgba(92,174,189,1.00)",
-          "$domain" : "appDoo.iOS",
+          "$domain" : "appdoo.iOS",
           "autoresizingMask" : 18,
           "frame" : {
             "origin" : {
@@ -3539,7 +3539,7 @@
               "hidden" : false,
               "$id" : "UILabel21ff927e5dc74116aeb50743ce7d3762",
               "textColor" : "rgba(254,255,255,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "backgroundColor" : "rgba(222,76,84,1.00)",
               "heightIsEditable" : true,
               "transform" : "",
@@ -3591,12 +3591,12 @@
                 },
                 "$id" : "MoviePlayerDataProvider6fe8f8e0e5e24efdb2ba4e4acdf70b88",
                 "actionInfo" : {
-                  "$domain" : "appDoo",
+                  "$domain" : "appdoo",
                   "modalTransitionStyle" : "-1",
                   "actionType" : "objectAction",
                   "type" : "objectAction",
-                  "objectActionID" : "",
-                  "$type" : "ActionInfo"
+                  "$type" : "ActionInfo",
+                  "objectActionID" : ""
                 },
                 "propertiesForBindings" : [
                   "currentPlaybackTime",
@@ -3652,7 +3652,7 @@
               "hidden" : false,
               "$id" : "UILabeldd68adb7de6b4f0ab7ff95b3b710e95d",
               "textColor" : "rgba(92,174,189,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "bindings" : [
                 {
                   "destination" : "MoviePlayerDataProvider6fe8f8e0e5e24efdb2ba4e4acdf70b88",
@@ -3717,12 +3717,12 @@
               "transform" : "",
               "textAlignment" : "center",
               "actionInfo" : {
-                "$domain" : "appDoo",
+                "$domain" : "appdoo",
                 "modalTransitionStyle" : "-1",
                 "actionType" : "objectAction",
                 "type" : "objectAction",
-                "objectActionID" : "",
-                "$type" : "ActionInfo"
+                "$type" : "ActionInfo",
+                "objectActionID" : ""
               },
               "userInteractionEnabled" : true,
               "layoutRelations" : [
@@ -3769,7 +3769,7 @@
               "hidden" : false,
               "$id" : "UILabel7de400299939431aaa4a1be4883f6c54",
               "textColor" : "rgba(254,255,255,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "heightIsEditable" : false,
               "transform" : "",
               "textAlignment" : "center",
@@ -3819,7 +3819,7 @@
                   "height" : 108
                 }
               },
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "autoresizingMask" : 34,
               "imageURLString" : "",
               "contentMode" : "scaleAspectFit",
@@ -3857,12 +3857,12 @@
           "scrollLeft" : 0
         },
         "$type" : "UIViewController",
-        "$domain" : "appDoo.iOS"
+        "$domain" : "appdoo.iOS"
       },
       "$id" : "Scene9e229945a1c04e1ebc7f31701ef9fd1a",
       "v_separateStatusBar" : false,
       "navigationObjectsNodeIsExpandedInEditorOutline" : true,
-      "$domain" : "appDoo.iOS",
+      "$domain" : "appdoo.iOS",
       "sceneObjectsNodeIsExpandedInEditorOutline" : true,
       "hasCustomInterfaceOrientations" : false,
       "previewSize" : {
@@ -3889,7 +3889,7 @@
             "height" : 64
           }
         },
-        "$domain" : "appDoo.iOS",
+        "$domain" : "appdoo.iOS",
         "autoresizingMask" : 2,
         "translucent" : false,
         "title" : "ABC Radio National",
@@ -3913,14 +3913,14 @@
                   "actionType" : "navigateBack",
                   "objectActionID" : "",
                   "$type" : "ActionInfo",
-                  "$domain" : "appDoo"
+                  "$domain" : "appdoo"
                 },
-                "$domain" : "appDoo.iOS",
+                "$domain" : "appdoo.iOS",
                 "itemType" : "systemItem"
               }
             ],
             "$type" : "UINavigationItem",
-            "$domain" : "appDoo.iOS"
+            "$domain" : "appdoo.iOS"
           }
         ],
         "barTintColor" : "rgba(222,76,84,1.00)",
@@ -3943,7 +3943,7 @@
           "$id" : "UITabBarItemd20c1f514ce14c76b523594ab14592d3",
           "title" : "ABC Radio National",
           "$type" : "UITabBarItem",
-          "$domain" : "appDoo.iOS"
+          "$domain" : "appdoo.iOS"
         },
         "title" : "ABC Radio National",
         "viewData" : {
@@ -3955,7 +3955,7 @@
             "left" : 0
           },
           "backgroundColor" : "rgba(92,174,189,1.00)",
-          "$domain" : "appDoo.iOS",
+          "$domain" : "appdoo.iOS",
           "autoresizingMask" : 18,
           "frame" : {
             "origin" : {
@@ -3989,7 +3989,7 @@
               "hidden" : false,
               "$id" : "UILabelc5ad9fbf92894ddeb2f4666e06f858cd",
               "textColor" : "rgba(254,255,255,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "backgroundColor" : "rgba(222,76,84,1.00)",
               "heightIsEditable" : true,
               "transform" : "",
@@ -4041,12 +4041,12 @@
                 },
                 "$id" : "MoviePlayerDataProviderb207f15455f64ab1bd9357d41b6ac168",
                 "actionInfo" : {
-                  "$domain" : "appDoo",
+                  "$domain" : "appdoo",
                   "modalTransitionStyle" : "-1",
                   "actionType" : "objectAction",
                   "type" : "objectAction",
-                  "objectActionID" : "",
-                  "$type" : "ActionInfo"
+                  "$type" : "ActionInfo",
+                  "objectActionID" : ""
                 },
                 "propertiesForBindings" : [
                   "currentPlaybackTime",
@@ -4102,7 +4102,7 @@
               "hidden" : false,
               "$id" : "UILabelde1ca43a4e7a485dbfab1172482fc923",
               "textColor" : "rgba(92,174,189,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "bindings" : [
                 {
                   "destination" : "MoviePlayerDataProviderb207f15455f64ab1bd9357d41b6ac168",
@@ -4167,12 +4167,12 @@
               "transform" : "",
               "textAlignment" : "center",
               "actionInfo" : {
-                "$domain" : "appDoo",
+                "$domain" : "appdoo",
                 "modalTransitionStyle" : "-1",
                 "actionType" : "objectAction",
                 "type" : "objectAction",
-                "objectActionID" : "",
-                "$type" : "ActionInfo"
+                "$type" : "ActionInfo",
+                "objectActionID" : ""
               },
               "userInteractionEnabled" : true,
               "layoutRelations" : [
@@ -4219,7 +4219,7 @@
               "hidden" : false,
               "$id" : "UILabel149ff5123de140d0a905a74ca79303e0",
               "textColor" : "rgba(254,255,255,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "heightIsEditable" : false,
               "transform" : "",
               "textAlignment" : "center",
@@ -4269,7 +4269,7 @@
                   "height" : 108
                 }
               },
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "autoresizingMask" : 34,
               "imageURLString" : "",
               "contentMode" : "scaleAspectFit",
@@ -4307,12 +4307,12 @@
           "scrollLeft" : 0
         },
         "$type" : "UIViewController",
-        "$domain" : "appDoo.iOS"
+        "$domain" : "appdoo.iOS"
       },
       "$id" : "Scene84c238cfc5814e9cbe276b07233ab014",
       "v_separateStatusBar" : false,
       "navigationObjectsNodeIsExpandedInEditorOutline" : true,
-      "$domain" : "appDoo.iOS",
+      "$domain" : "appdoo.iOS",
       "sceneObjectsNodeIsExpandedInEditorOutline" : true,
       "hasCustomInterfaceOrientations" : false,
       "previewSize" : {
@@ -4339,7 +4339,7 @@
             "height" : 64
           }
         },
-        "$domain" : "appDoo.iOS",
+        "$domain" : "appdoo.iOS",
         "autoresizingMask" : 2,
         "translucent" : false,
         "title" : "",
@@ -4365,14 +4365,14 @@
                   "actionType" : "navigateBack",
                   "objectActionID" : "",
                   "$type" : "ActionInfo",
-                  "$domain" : "appDoo"
+                  "$domain" : "appdoo"
                 },
-                "$domain" : "appDoo.iOS",
+                "$domain" : "appdoo.iOS",
                 "itemType" : "systemItem"
               }
             ],
             "$type" : "UINavigationItem",
-            "$domain" : "appDoo.iOS"
+            "$domain" : "appdoo.iOS"
           }
         ],
         "hidden" : false,
@@ -4390,7 +4390,7 @@
           "$id" : "UITabBarItemc286a33c29f846c69a51eaf6584476ca",
           "title" : "",
           "$type" : "UITabBarItem",
-          "$domain" : "appDoo.iOS"
+          "$domain" : "appdoo.iOS"
         },
         "title" : "",
         "viewData" : {
@@ -4402,7 +4402,7 @@
             "left" : 0
           },
           "backgroundColor" : "rgb(255, 255, 255)",
-          "$domain" : "appDoo.iOS",
+          "$domain" : "appdoo.iOS",
           "autoresizingMask" : 18,
           "frame" : {
             "origin" : {
@@ -4436,7 +4436,7 @@
               "hidden" : false,
               "$id" : "UILabela57c63c86dc14d2c918a28ed6498f819",
               "textColor" : "rgba(94,94,94,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "heightIsEditable" : true,
               "transform" : "",
               "textAlignment" : "center",
@@ -4483,12 +4483,12 @@
               "transform" : "",
               "textAlignment" : "center",
               "actionInfo" : {
-                "$domain" : "appDoo",
+                "$domain" : "appdoo",
                 "modalTransitionStyle" : "-1",
                 "actionType" : "objectAction",
                 "type" : "objectAction",
-                "objectActionID" : "",
-                "$type" : "ActionInfo"
+                "$type" : "ActionInfo",
+                "objectActionID" : ""
               },
               "userInteractionEnabled" : true,
               "layoutRelations" : [
@@ -4535,7 +4535,7 @@
               "hidden" : false,
               "$id" : "UILabel247e33a92ab04395a152bf58acdee705",
               "textColor" : "rgba(232,67,35,1.00)",
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "heightIsEditable" : false,
               "transform" : "",
               "textAlignment" : "center",
@@ -4585,7 +4585,7 @@
                   "height" : 80
                 }
               },
-              "$domain" : "appDoo.iOS",
+              "$domain" : "appdoo.iOS",
               "autoresizingMask" : 34,
               "imageURLString" : "",
               "contentMode" : "scaleAspectFit",
@@ -4623,12 +4623,12 @@
           "scrollLeft" : 0
         },
         "$type" : "UIViewController",
-        "$domain" : "appDoo.iOS"
+        "$domain" : "appdoo.iOS"
       },
       "$id" : "Scene535c9a25e2314ab7baf6aa5b4743d421",
       "v_separateStatusBar" : false,
       "navigationObjectsNodeIsExpandedInEditorOutline" : true,
-      "$domain" : "appDoo.iOS",
+      "$domain" : "appdoo.iOS",
       "sceneObjectsNodeIsExpandedInEditorOutline" : true,
       "hasCustomInterfaceOrientations" : false,
       "previewSize" : {
@@ -4644,7 +4644,7 @@
     "fontName" : "_DEFAULT_",
     "pointSize" : 10,
     "$type" : "UIFont",
-    "$domain" : "appDoo.iOS"
+    "$domain" : "appdoo.iOS"
   },
   "usesCustomNavigationBarFont" : false,
   "navigationBarFont" : {
@@ -4653,35 +4653,35 @@
     "fontName" : "_DEFAULT_BOLD_",
     "pointSize" : 17,
     "$type" : "UIFont",
-    "$domain" : "appDoo.iOS"
+    "$domain" : "appdoo.iOS"
   },
-  "$domain" : "appDoo",
+  "$domain" : "appdoo",
   "metadata" : {
     "launchImages" : {
       "phone72" : {
         "$type" : "ImageReference",
-        "$domain" : "appDoo",
+        "$domain" : "appdoo",
         "imageID" : "CB3A12D9-A297-46CA-B207-41A26B487C61-1912-00000D604437969B.png"
       },
       "phoneX" : {
         "$type" : "ImageReference",
-        "$domain" : "appDoo",
+        "$domain" : "appdoo",
         "imageID" : "D678FFBA-A9D4-4DBE-B6A5-81B3519F53AC-1912-00000D64EDA8E380.png"
       },
       "phone71" : {
         "$type" : "ImageReference",
-        "$domain" : "appDoo",
+        "$domain" : "appdoo",
         "imageID" : "32CCC46E-6FAC-4CEC-9F15-675F3530CE06-1912-00000D61D64733A1.png"
       },
       "phone40" : {
         "$type" : "ImageReference",
-        "$domain" : "appDoo",
+        "$domain" : "appdoo",
         "imageID" : "65032ACE-DB6B-498C-B4EF-E6CED9C40DB7-1912-00000D5F0FD6CC00.png"
       }
     },
     "iconImage" : {
       "$type" : "ImageReference",
-      "$domain" : "appDoo",
+      "$domain" : "appdoo",
       "imageID" : "D148E579-669D-44EF-97F9-8A031A83C8DE-5707-00001D1938B203F4.png"
     },
     "editorAppearance" : {
@@ -5004,30 +5004,30 @@
       "historyStackPosition" : 296
     },
     "hidesStatusBarOnLaunch" : 0,
-    "editorVersion" : 105,
+    "editorVersion" : 363,
     "title" : "Radio",
-    "formatVersion" : 105,
+    "formatVersion" : 363,
     "lastObjectID" : 10041,
     "simulatedSystemVersion" : 7,
     "supportedInterfaceOrientations" : 6,
     "initialViewController" : "UIViewController1",
-    "description" : "Tabbed App (iPhone)",
+    "overviewAppearance" : {
+      "contentScale" : 0.33000000000000002
+    },
     "deviceProfile" : "iPhone-6",
     "appleAppBundlePrefix" : "",
     "version" : "1.0",
     "defaultLanguage" : "en",
-    "targetedDeviceFamily" : "iPhone",
+    "targetedDeviceFamily" : "iOS-Universal",
     "appleAppCategory" : "",
     "requiresBackgroundAudioPlayback" : true,
     "editedObject" : "Scene84c238cfc5814e9cbe276b07233ab014",
     "projectID" : "B9418B00-ED08-4189-8056-1207672F5684-7263-000008D8DD3D6D3E",
-    "companyName" : "appsoluteGmbh",
+    "companyName" : "MAMPGmbH",
     "windowFrame" : "285 91 960 640 0 0 1440 878 ",
     "windowIsFullScreen" : false,
     "rootInstance" : "TabBarController",
-    "overviewAppearance" : {
-      "contentScale" : 0.33000000000000002
-    }
+    "description" : "Tabbed App (iPhone)"
   },
   "barButtonItemFont" : {
     "$id" : "UIFontebb2a888911a4f0f9ca9a1298edb949a",
@@ -5035,7 +5035,7 @@
     "fontName" : "_DEFAULT_",
     "pointSize" : 17,
     "$type" : "UIFont",
-    "$domain" : "appDoo.iOS"
+    "$domain" : "appdoo.iOS"
   },
   "fileReferences" : [
     {
@@ -5044,7 +5044,7 @@
       "$id" : "ResourceReference1394e5fbc7134f8e8e4a445ee2b6beba",
       "size" : 58527,
       "resourceID" : "939BAF37-DEB7-4DB8-A3EA-44471FC4CB72-2836-000009F77E452B3D.png",
-      "$domain" : "appDoo",
+      "$domain" : "appdoo",
       "shouldSync" : true,
       "actionInfo" : {
         "type" : "objectAction",
@@ -5052,14 +5052,14 @@
         "actionType" : "objectAction",
         "objectActionID" : "",
         "$type" : "ActionInfo",
-        "$domain" : "appDoo"
+        "$domain" : "appdoo"
       },
       "originalFileInfo" : {
         "absolutePath" : "\/Users\/dirkeinecke\/Desktop\/ABC-NEWS-Logo.png",
         "relativePath" : "..\/..\/..\/..\/..\/..\/..\/..\/Desktop\/ABC-NEWS-Logo.png",
         "modificationTime" : 1542096363.545742,
         "$type" : "FileInfo",
-        "$domain" : "appDoo"
+        "$domain" : "appdoo"
       },
       "name" : "ABC-NEWS-Logo.png"
     },
@@ -5069,7 +5069,7 @@
       "$id" : "ResourceReference866667d56d5d4dc595aceb19a2c02bea",
       "size" : 78126,
       "resourceID" : "53EEE4DE-3A7C-4162-AE43-1EBCB62C7708-2836-00000C5DB53E0DF7.png",
-      "$domain" : "appDoo",
+      "$domain" : "appdoo",
       "shouldSync" : true,
       "actionInfo" : {
         "type" : "objectAction",
@@ -5077,14 +5077,14 @@
         "actionType" : "objectAction",
         "objectActionID" : "",
         "$type" : "ActionInfo",
-        "$domain" : "appDoo"
+        "$domain" : "appdoo"
       },
       "originalFileInfo" : {
         "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/Radio\/appdoo-Radio\/Resources\/Station Logos\/Export\/triple-j-Logo.png",
         "relativePath" : "..\/Resources\/Station Logos\/Export\/triple-j-Logo.png",
         "modificationTime" : 1542098823.9492779,
         "$type" : "FileInfo",
-        "$domain" : "appDoo"
+        "$domain" : "appdoo"
       },
       "name" : "triple-j-Logo.png"
     },
@@ -5094,7 +5094,7 @@
       "$id" : "ResourceReference0b9c05dcbf5d41839e242b50857b50d6",
       "size" : 58904,
       "resourceID" : "F9AAEA9D-4E02-44C2-980C-A29B7AB8D894-2836-00000D5AB2412102.png",
-      "$domain" : "appDoo",
+      "$domain" : "appdoo",
       "shouldSync" : true,
       "actionInfo" : {
         "type" : "objectAction",
@@ -5102,14 +5102,14 @@
         "actionType" : "objectAction",
         "objectActionID" : "",
         "$type" : "ActionInfo",
-        "$domain" : "appDoo"
+        "$domain" : "appdoo"
       },
       "originalFileInfo" : {
         "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/Radio\/appdoo-Radio\/Resources\/Station Logos\/Export\/Double-J-Logo.png",
         "relativePath" : "..\/Resources\/Station Logos\/Export\/Double-J-Logo.png",
         "modificationTime" : 1542099881.0691097,
         "$type" : "FileInfo",
-        "$domain" : "appDoo"
+        "$domain" : "appdoo"
       },
       "name" : "Double-J-Logo.png"
     },
@@ -5119,7 +5119,7 @@
       "$id" : "ResourceReference3b9381d619f64ba59fd82ef47786e7ba",
       "size" : 163005,
       "resourceID" : "D3C31F06-CC2C-4047-ABD6-2C33C62A6E4B-4059-000010BB911F79BA.png",
-      "$domain" : "appDoo",
+      "$domain" : "appdoo",
       "shouldSync" : true,
       "actionInfo" : {
         "type" : "objectAction",
@@ -5127,14 +5127,14 @@
         "actionType" : "objectAction",
         "objectActionID" : "",
         "$type" : "ActionInfo",
-        "$domain" : "appDoo"
+        "$domain" : "appdoo"
       },
       "originalFileInfo" : {
         "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/Radio\/appdoo-Radio\/Resources\/Station Logos\/Export\/ABC-CLASSIC.png",
         "relativePath" : "..\/Resources\/Station Logos\/Export\/ABC-CLASSIC.png",
         "modificationTime" : 1542103796.8367019,
         "$type" : "FileInfo",
-        "$domain" : "appDoo"
+        "$domain" : "appdoo"
       },
       "name" : "ABC-CLASSIC.png"
     },
@@ -5144,7 +5144,7 @@
       "$id" : "ResourceReferencee6510b15f5134a4991fe464433ed9a96",
       "size" : 207026,
       "resourceID" : "ED12ABD9-3F06-4653-87F9-DA16CC26C7C0-4059-00001187AC2D97FB.png",
-      "$domain" : "appDoo",
+      "$domain" : "appdoo",
       "shouldSync" : true,
       "actionInfo" : {
         "type" : "objectAction",
@@ -5152,14 +5152,14 @@
         "actionType" : "objectAction",
         "objectActionID" : "",
         "$type" : "ActionInfo",
-        "$domain" : "appDoo"
+        "$domain" : "appdoo"
       },
       "originalFileInfo" : {
         "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/Radio\/appdoo-Radio\/Resources\/Station Logos\/Export\/ABC-Country.png",
         "relativePath" : "..\/Resources\/Station Logos\/Export\/ABC-Country.png",
         "modificationTime" : 1542104467.4096327,
         "$type" : "FileInfo",
-        "$domain" : "appDoo"
+        "$domain" : "appdoo"
       },
       "name" : "ABC-Country.png"
     },
@@ -5169,7 +5169,7 @@
       "$id" : "ResourceReferencebeff91781d424e51873f1f6a0af92915",
       "size" : 165228,
       "resourceID" : "93E60CDB-1343-45BA-9D1E-2BD501CA1340-4059-000012568BB2F40A.png",
-      "$domain" : "appDoo",
+      "$domain" : "appdoo",
       "shouldSync" : true,
       "actionInfo" : {
         "type" : "objectAction",
@@ -5177,14 +5177,14 @@
         "actionType" : "objectAction",
         "objectActionID" : "",
         "$type" : "ActionInfo",
-        "$domain" : "appDoo"
+        "$domain" : "appdoo"
       },
       "originalFileInfo" : {
         "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/Radio\/appdoo-Radio\/Resources\/Station Logos\/Export\/ABC-RN.png",
         "relativePath" : "..\/Resources\/Station Logos\/Export\/ABC-RN.png",
         "modificationTime" : 1542105573.0542796,
         "$type" : "FileInfo",
-        "$domain" : "appDoo"
+        "$domain" : "appdoo"
       },
       "name" : "ABC-RN.png"
     },
@@ -5194,7 +5194,7 @@
       "$id" : "ResourceReference1842e07142e04a79b987a05d7ddba4ea",
       "size" : 222903,
       "resourceID" : "1063E3D4-3DB0-4060-B13A-BAE4E7CE081E-4059-000013CBCA44825F.png",
-      "$domain" : "appDoo",
+      "$domain" : "appdoo",
       "shouldSync" : true,
       "actionInfo" : {
         "type" : "objectAction",
@@ -5202,14 +5202,14 @@
         "actionType" : "objectAction",
         "objectActionID" : "",
         "$type" : "ActionInfo",
-        "$domain" : "appDoo"
+        "$domain" : "appdoo"
       },
       "originalFileInfo" : {
         "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/Radio\/appdoo-Radio\/Resources\/Station Logos\/Export\/ABC-Grandstand.png",
         "relativePath" : "..\/Resources\/Station Logos\/Export\/ABC-Grandstand.png",
         "modificationTime" : 1542107172.3877368,
         "$type" : "FileInfo",
-        "$domain" : "appDoo"
+        "$domain" : "appdoo"
       },
       "name" : "ABC-Grandstand.png"
     },
@@ -5219,7 +5219,7 @@
       "$id" : "ResourceReference49bb2d904bba459cb768e219faa69378",
       "size" : 221530,
       "resourceID" : "2FF47B53-83F9-4FB7-BFA4-2CD048AF2582-2757-000010DFCF343594.png",
-      "$domain" : "appDoo",
+      "$domain" : "appdoo",
       "shouldSync" : true,
       "actionInfo" : {
         "type" : "objectAction",
@@ -5227,14 +5227,14 @@
         "actionType" : "objectAction",
         "objectActionID" : "",
         "$type" : "ActionInfo",
-        "$domain" : "appDoo"
+        "$domain" : "appdoo"
       },
       "originalFileInfo" : {
         "absolutePath" : "\/Users\/dirkeinecke\/Dropbox\/appsolute\/Projects\/appdoo\/Projects\/Radio\/appdoo-Radio\/Resources\/Station Logos\/Export\/ABC-Jazz.png",
         "relativePath" : "..\/Resources\/Station Logos\/Export\/ABC-Jazz.png",
         "modificationTime" : 1542798300.5001984,
         "$type" : "FileInfo",
-        "$domain" : "appDoo"
+        "$domain" : "appdoo"
       },
       "name" : "ABC-Jazz.png"
     },
@@ -5244,7 +5244,7 @@
       "$id" : "ResourceReferenceb592e2358d4c46f58c78c59d6c098acc",
       "size" : 541397,
       "resourceID" : "FE9250DA-4415-4CC4-9C9D-FFA2D14363FE-1969-000014257A2B08FC.png",
-      "$domain" : "appDoo",
+      "$domain" : "appdoo",
       "shouldSync" : true,
       "actionInfo" : {
         "type" : "objectAction",
@@ -5252,14 +5252,14 @@
         "actionType" : "objectAction",
         "objectActionID" : "",
         "$type" : "ActionInfo",
-        "$domain" : "appDoo"
+        "$domain" : "appdoo"
       },
       "originalFileInfo" : {
         "absolutePath" : "\/Users\/dirkeinecke\/Desktop\/appdoo-Icon.png",
         "relativePath" : "..\/..\/..\/..\/..\/..\/..\/..\/Desktop\/appdoo-Icon.png",
         "modificationTime" : 1544772790.730773,
         "$type" : "FileInfo",
-        "$domain" : "appDoo"
+        "$domain" : "appdoo"
       },
       "name" : "appdoo-Icon.png"
     }
